@@ -38,17 +38,16 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
   
 | Feature                           | C4/Web                 | C5/Web                 | X5-JSON                | X4Pro-db               |
 |:----------------------------------|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
-| Metadata in the file              | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
 | Interactive (via Web-forms)       | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
 | Automatic-corrections             | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
 | Expert/User-corrections           | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
 | Checking-mode (for every point)   | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
 | Plotting data                     | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
 | Plotting monitors                 | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
-| Includes monitor data to the file | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| Corrected data in the file        | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                 | :x: No                 |
-| Correction-algorithm in the file  | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| Exampes of correcting code        | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| :one:   Includes monitor data to the file | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| :two:   Correction-algorithm in the file  | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| :three: Exampes of correcting code        | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| :four: **Corrected data in the file**     | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                 | :x: No                 |
 
 ### Examples of data files
 
