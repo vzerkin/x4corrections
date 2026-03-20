@@ -36,18 +36,18 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
   > **_NOTE:_** 
   SG54 project is ongoing and data examples presented here are for discussion
   
-| Feature                           | C4/Web                 | C5/Web                 | X5-JSON                | X4Pro-db               |
-|:----------------------------------|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
-| Interactive (via Web-forms)       | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
-| Automatic-corrections             | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| Expert/User-corrections           | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
-| Checking-mode (for every point)   | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
-| Plotting data                     | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
-| Plotting monitors                 | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
-| :one:   Includes monitor data to the file | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| :two:   Correction-algorithm in the file  | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| :three: Exampes of correcting code        | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
-| :four: **Corrected data in the file**     | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                 | :x: No                 |
+| Feature                                     | C4/Web                 | C5/Web                 | X5-JSON                | X4Pro-db               |
+|:--------------------------------------------|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
+| :a: Automatic-corrections                   | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| :floppy_disk: Expert/User-corrections       | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
+| :mag_right: Interactive (via Web-forms)     | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
+| :mag_right: Checking-mode (for every point) | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
+| :mag_right: Plotting data                   | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| :mag_right: Plotting monitors               | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
+| :one:   Includes monitor data to the file   | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| :two:   Correction-algorithm in the file    | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| :three: Exampes of correcting code          | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| :four: **Corrected data in the file**       | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                 | :x: No                 |
 
 ### Examples of data files
 
