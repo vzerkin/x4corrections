@@ -1,5 +1,5 @@
 {"format": "x4json-zv1.0.0",
- "now": "2026-03-19T12:20:13.902Z",
+ "now": "2026-03-19T12:20:13.923Z",
  "title": "EXFOR file in JSON",
  "program": "x4py, by V.Zerkin, Vienna, ver.2026-06-17",
  "purpose": "To read/modify/save EXFOR and/or JSON structured according to EXFOR Manual",
@@ -62,7 +62,7 @@
       "AUTHOR": [
        {"pointer": " ",
         "joinFreeLines": false,
-        "codeLines": ["E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski"]
+        "codeLines": ["E.Zupranska*,K.Rusek,J.Turkiewicz,P.Zupranski"]
        }
       ],
       "TITLE": [
@@ -184,12 +184,13 @@
      }
     },
     {"SUBENT": "30581004",
-     "compiled": "20090506",
+     "compiled": "20260319",
      "BIB": {
       "REACTION": [
        {"pointer": " ",
         "joinFreeLines": false,
-        "codeLines": ["25-MN-55(N,A)23-V-52,,SIG"]
+        "codeLines": [ "25-MN-55(N,A)23-V-52,,SIG,,,SG54"],
+        "freeLines": ["data recalculated by WPEC-SG54 group"]
        }
       ],
       "DECAY-DATA": [
@@ -211,6 +212,23 @@
          "preliminary.",
          ".This entry replaces exfor 30312.004."
         ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "DEP,30581004,20090506"],
+        "freeLines": [
+         " modified by V.Zerkin 20260319",
+         " original data taken from 30581004 as of 20090506"
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": [ "MODIF,30581004,IAEA-Web,20260319"],
+        "freeLines": [" modified by the IAEA-Web system as test-example"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["APPROVED,30581004,R.Capote,20260315"]
        }
       ],
       "HISTORY": [
@@ -218,6 +236,57 @@
         "joinFreeLines": true,
         "codeLines": [ "19810624A"],
         "freeLines": [" Ko. -Numerical values corrected.-"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "20260319A"],
+        "freeLines": [" ZV - example of DATA correction Auto-2026"]
+       }
+      ],
+      "MONIT-REF": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [
+         ",K.I.Zolotarev,3,IRDFF-II,2631,2004"
+        ],
+        "freeLines": [
+         " new monitor data",
+         " used for renormalization by WPEC-SG54 group.",
+         " Original monitor data taken from the EXFOR Entry 20377",
+         " via link: (20377002,H.LISKIEN+,J,JNE/AB,19,73,196502)"
+        ]
+       }
+      ],
+      "RECALC": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "---Description of data modifications done in columns",
+         "---of the DATA and/or COMMON sections"
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,DATA"],
+        "freeLines": ["    Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,ERR-T"],
+        "freeLines": ["   Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ADD-COL,DATA,MONIT"],
+        "freeLines": ["   Added column: new MONIT"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ADD-COL,DATA,FC,DATA"],
+        "freeLines": [
+         " Added: factor for DATA:=DATA*FC",
+         " ERR-T also recalculated using FC: [ERR-T]:=[ERR-T]*FC"
+        ]
        }
       ]
      },
@@ -228,20 +297,20 @@
       "data": []
      },
      "x4data": {
-      "headers": [ "EN", "EN-RSL", "DATA", "ERR-T"],
-      "units": [ "MEV", "MEV", "MB", "MB"],
-      "pointers": [ " ", " ", " ", " "],
+      "headers": [ "EN", "EN-RSL", "DATA", "ERR-T", "MONIT", "FC"],
+      "units": [ "MEV", "MEV", "MB", "MB", "MB", "NO-DIM"],
+      "pointers": [ " ", " ", " ", " ", " ", " "],
       "data": [
-       [13.0        ,0.1         ,21.9        ,2.1         ],
-       [13.3        ,0.1         ,21.8        ,1.4         ],
-       [13.9        ,0.2         ,24.1        ,1.5         ],
-       [14.5        ,0.2         ,27.7        ,1.6         ],
-       [15.1        ,0.2         ,29.2        ,1.9         ],
-       [15.5        ,0.2         ,24.9        ,1.8         ],
-       [15.9        ,0.2         ,23.7        ,2.2         ],
-       [16.6        ,0.1         ,23.9        ,2.6         ],
-       [17.4        ,0.2         ,21.3        ,2.6         ],
-       [17.8        ,0.1         ,18.1        ,2.4         ]
+       [13.0       ,0.1        ,22.258034  ,2.1343321  ,114.678    ,1.0163486  ],
+       [13.3       ,0.1        ,22.35633   ,1.4357276  ,115.7905   ,1.0255197  ],
+       [13.9       ,0.2        ,25.883948  ,1.6110341  ,114.767    ,1.0740227  ],
+       [14.5       ,0.2        ,30.626199  ,1.7690223  ,109.563    ,1.1056389  ],
+       [15.1       ,0.2        ,32.833565  ,2.1364306  ,101.49525  ,1.1244372  ],
+       [15.5       ,0.2        ,27.09521   ,1.9586899  ,95.387609  ,1.088161   ],
+       [15.9       ,0.2        ,25.968845  ,2.4106101  ,89.161755  ,1.0957318  ],
+       [16.6       ,0.1        ,25.963486  ,2.8244796  ,78.5706    ,1.0863383  ],
+       [17.4       ,0.2        ,22.804505  ,2.7836485  ,67.915     ,1.070634   ],
+       [17.8       ,0.1        ,19.348631  ,2.5655643  ,63.3253    ,1.0689851  ]
       ]
      }
     }
