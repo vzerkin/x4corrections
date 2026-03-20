@@ -46,8 +46,9 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
 | Plotting data                     | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
 | Plotting monitors                 | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
 | Includes monitor data to the file | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
+| Corrected data in the file        | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                 | :x: No                 |
 | Correction-algorithm in the file  | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
-| Exampes of codes                  | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| Exampes of correcting code        | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
 
 ### Examples of data files
 
