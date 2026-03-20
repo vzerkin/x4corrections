@@ -1,10 +1,11 @@
+#SG54            M0001   20260319 # by V.Zerkin, 2026
 ENTRY            13597   20140415   20141203   20141111       1401
 SUBENT        13597001   20140415   20141203   20141111       1401
 BIB                 15         35
 INSTITUTE  (1USAAUB,1USAALS)
 REFERENCE  (J,ANE,22,11,199501) - final publ., full data set
            (J,BAP,39,1250(R9.2),199404)  - short abstract
-AUTHOR     (S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford)
+AUTHOR     (S.K.Ghorai*,P.M.Sylva,J.R.Williams,W.L.Alford)
 TITLE      Partial neutron cross sections for 64Zn, 66Zn, 67Zn
             and 68Zn between 14.2 and 18.2 MeV
 FACILITY   (DYNAM,1USAAUB)
@@ -43,19 +44,40 @@ MEV
 0.2
 ENDCOMMON            3
 ENDSUBENT           42
-SUBENT        13597002   19950217              20050926       0000
-BIB                  2          2
-REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+SUBENT        13597002   20260319              20050926       0000
+BIB                  5         17
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,,SG54)
+           data recalculated by WPEC-SG54 group
 DECAY-DATA (29-CU-64,12.7HR,AR,511.,0.386)
-ENDBIB               2
+HISTORY    (20260319A) ZV - example of DATA correction Auto-2026
+STATUS     (DEP,13597002,19950217) modified by V.Zerkin 20260319
+            original data taken from 13597002 as of 19950217
+           (MODIF,13597002,IAEA-Web,20260319)
+            modified according to IAEA-Web system as test-example
+           (APPROVED,13597002,R.Capote,20260226)
+RECALC     ---Description of modifications done in columns
+           ---of the DATA and/or COMMON sections
+           (MOD-COL,DATA,DATA)      Modified column
+           (MOD-COL,DATA,DATA-ERR)  Modified column
+           (MOD-COL,DATA,MONIT)     Modified column
+           (MOD-COL,DATA,MONIT-ERR) Modified column
+           (ADD-COL,DATA,FC,DATA) Added factor for DATA:=DATA*FC
+           (ADD-COL,DATA,FC-ERR,DATA-ERR) Factor for DATA-ERR
+ENDBIB              17
 NOCOMMON             0          0
-DATA                 5          4
-EN         DATA       DATA-ERR   MONIT      MONIT-ERR
-MEV        MB         MB         MB         MB
-14.2       180.       10.        122.       0.65
-15.2       152.       9.         108.       1.96
-16.2       116.       6.         90.        1.75
-17.2       122.       8.         72.        1.41
-ENDDATA              6
-ENDSUBENT           13
+DATA                 7          4
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR  FC
+FC-ERR
+MEV        MB         MB         MB         MB         NO-DIM
+NO-DIM
+14.2       193.53571  10.736444  119.62     0.5278325  1.0751984
+1.0736444
+15.2       162.06892  9.1710408  105.01111  0.53121778 1.0662429
+1.0190045
+16.2       126.15016  6.1161546  89.254     0.6517     1.0875014
+1.0193591
+17.2       135.97889  8.5860595  73.1812    0.614784   1.1145811
+1.0732574
+ENDDATA             12
+ENDSUBENT           34
 ENDENTRY             2
