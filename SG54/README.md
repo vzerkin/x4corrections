@@ -34,7 +34,7 @@ Since this can be confusing and even dangerous, this solution should be consider
 | EXFOR: Modification in COMMON section                 | :x: No                 | :white_check_mark: Yes | :x: No                   |
 
 
-#### Naming conventions, operations:
+### Files, objects, operations, naming convention:
 ```
 Procedure of Automatic correction for EXFOR 13597002:
   #) Input        Operation          Output               #Comment on output
