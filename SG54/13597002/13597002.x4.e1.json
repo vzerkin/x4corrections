@@ -1,0 +1,202 @@
+{"format": "x4json-zv1.0.0",
+ "now": "2026-03-19T12:20:13.613Z",
+ "title": "EXFOR file in JSON",
+ "program": "x4py, by V.Zerkin, Vienna, ver.2026-06-17",
+ "purpose": "To read/modify/save EXFOR and/or JSON structured according to EXFOR Manual",
+ "x4entries": [
+  {"ENTRY": "13597",
+   "updated": "20140415",
+   "srcFile": "13597002.x4",
+   "a1": "S.K.Ghorai",
+   "y1": "1995",
+   "ref": "J,ANE,22,11,199501",
+   "x4subents": [
+    {"SUBENT": "13597001",
+     "compiled": "20140415",
+     "BIB": {
+      "INSTITUTE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["1USAAUB,1USAALS"]
+       }
+      ],
+      "REFERENCE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "J,ANE,22,11,199501"],
+        "freeLines": [" - final publ., full data set"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "J,BAP,39,1250(R9.2),199404"],
+        "freeLines": ["  - short abstract"]
+       }
+      ],
+      "AUTHOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford"]
+       }
+      ],
+      "TITLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "Partial neutron cross sections for 64Zn, 66Zn, 67Zn",
+         " and 68Zn between 14.2 and 18.2 MeV"
+        ]
+       }
+      ],
+      "FACILITY": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["DYNAM,1USAAUB"]
+       }
+      ],
+      "INC-SOURCE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "D-T"],
+        "freeLines": [
+         " deuterons on titanium tritide. The titanium",
+         "thickness was 0.62 mg/cm2 with a tritium concentration",
+         "of 0.42 Ci/cm2. The neutron fluxes varied from",
+         "about 1.4 x 10**7 n/cm2/s at 14.2MeV to about",
+         "3.8 x 10**5 n/cm2/s at 18.2 MeV"
+        ]
+       }
+      ],
+      "SAMPLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": ["Natural zinc sample."]
+       }
+      ],
+      "METHOD": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["ACTIV,MOMIX"]
+       }
+      ],
+      "DETECTOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["GELI"]
+       }
+      ],
+      "MONITOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["13-AL-27(N,A)11-NA-24,,SIG"]
+       }
+      ],
+      "DECAY-MON": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["11-NA-24,15.02HR,DG,1369.,1.00"]
+       }
+      ],
+      "CORRECTION": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "Corrected for:",
+         ".self-absorption of gamma-rays in sample",
+         ".gamma-gamma coincidence summing effect"
+        ]
+       }
+      ],
+      "ERR-ANALYS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "DATA-ERR"],
+        "freeLines": [
+         " Standard uncertainties include uncertainty",
+         " in:",
+         " .detector counting efficiency",
+         " .monitor reaction cross section",
+         " .decay parameters, except gamma intensities",
+         " .self-absorption correction",
+         " .coincidence summing effect",
+         " .counting statistics"
+        ]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "APRVD"],
+        "freeLines": [" Approved by S.K. Ghorai, 6/23/1995"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "TABLE"],
+        "freeLines": [
+         " Data taken from ANE,22,11,1995 (the same data",
+         "are given in BAP,39,1250(R9.2) but without decay-data",
+         "and monitor reaction)"
+        ]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["19950215C"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "20140415A"],
+        "freeLines": [
+         " SD: REACTION code corrected in Subent 5.",
+         " Minor corrections."
+        ]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [ "EN-RSL"],
+      "units": [ "MEV"],
+      "pointers": [ " "],
+      "data": [
+       [0.2         ]
+      ]
+     }
+    },
+    {"SUBENT": "13597002",
+     "compiled": "19950217",
+     "BIB": {
+      "REACTION": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["30-ZN-64(N,P)29-CU-64,,SIG"]
+       }
+      ],
+      "DECAY-DATA": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["29-CU-64,12.7HR,AR,511.,0.386"]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [],
+      "units": [],
+      "pointers": [],
+      "data": []
+     },
+     "x4data": {
+      "headers": [ "EN", "DATA", "DATA-ERR", "MONIT", "MONIT-ERR"],
+      "units": [ "MEV", "MB", "MB", "MB", "MB"],
+      "pointers": [ " ", " ", " ", " ", " "],
+      "data": [
+       [14.2        ,180.0       ,10.0        ,122.0       ,0.65        ],
+       [15.2        ,152.0       ,9.0         ,108.0       ,1.96        ],
+       [16.2        ,116.0       ,6.0         ,90.0        ,1.75        ],
+       [17.2        ,122.0       ,8.0         ,72.0        ,1.41        ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

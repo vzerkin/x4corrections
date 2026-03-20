@@ -1,0 +1,16 @@
+30581004  x4u:20090506  #1980,Zupranska #Pts:10  #now:2026-03-09 
+ #[0]#---Monitor xs-data
+ #[0]#Reaction: 25-MN-55(N,A)23-V-52,,SIG
+ #[0]#Monitor:  26-FE-56(N,P)25-MN-56,,SIG
+ #m0: {20377002,H.LISKIEN+,J,JNE/AB,19,73,196502} $ fe56np;#[0]#old monit-ref
+ m0: exfor$20377002_fe56np;      #[0]#old monitor(energy) in EXFOR
+ m1: recom$fe56np;               #[0]#new monitor(energy)
+ dy=dy/y;                        #[0]#to rel. uncertainties.
+ y=y/m0*m1;                      #[0]#renormalizing CS
+ #dm0=dm0/m0;                    #[0]#---dm0-to-relative
+ #dm1=dm1/m1;                    #[0]#---dm1-to-relative
+ #dy=(dy**2-dm0**2+dm1**2)**0.5; #[0]#---replace monitor uncertainties
+ #c0=0.02;                       #---define calc-error as 2%
+ #dy=(dy**2+c0**2)**0.5;         #---add calc-error
+ dy=dy*y;                        #[0]#to abs. uncertainties
+

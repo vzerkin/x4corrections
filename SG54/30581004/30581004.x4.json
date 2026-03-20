@@ -1,0 +1,251 @@
+{"format": "x4json-zv1.0.0",
+ "now": "2026-03-19T12:20:13.902Z",
+ "title": "EXFOR file in JSON",
+ "program": "x4py, by V.Zerkin, Vienna, ver.2026-06-17",
+ "purpose": "To read/modify/save EXFOR and/or JSON structured according to EXFOR Manual",
+ "x4entries": [
+  {"ENTRY": "30581",
+   "updated": "20090506",
+   "srcFile": "30581004.x4",
+   "a1": "E.Zupranska",
+   "y1": "1980",
+   "ref": "J,APP/B,11,853,198011",
+   "x4subents": [
+    {"SUBENT": "30581001",
+     "compiled": "20090506",
+     "BIB": {
+      "INSTITUTE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["3POLIBJ"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "3POLPWA"],
+        "freeLines": [" 1st author's address."]
+       }
+      ],
+      "REFERENCE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "J,APP/B,11,853,198011"],
+        "freeLines": [" Final"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "R,INR-1821/I/PL/A,1980"],
+        "freeLines": [" Final numerical values."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "P,INR-1642/I/PL/A,10,1976"],
+        "freeLines": [" P,V,Mn,Co,As and (Nb-93)."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "P,INR-1702/I/PL/A,19,1977"],
+        "freeLines": [
+         " La only",
+         " ===Compiler's note 81/05/08 =",
+         " Both progress reports are issued as INDC(SEC)-61, and",
+         " EXFOR 30312(except .007) and 30485 have been replaced",
+         " by this entry. ===",
+         " ===Compiler's note (2nd issue) 81/06/24 =",
+         " M.Herman stated in his letter (81/06/15) that the",
+         " values in INDC(SEC)-61(contains INR-1642/I/PL/A and",
+         " INR-1702/I/PL/A) were preliminary, and he sent the",
+         " corrected values. Corrections have been done",
+         " accordingly. ==="
+        ]
+       }
+      ],
+      "AUTHOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski"]
+       }
+      ],
+      "TITLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "Excitation functions for (n,a) reactions in the neutron",
+         "energy range from 13 to 18 MeV."
+        ]
+       }
+      ],
+      "FACILITY": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["VDG,3POLIBJ"]
+       }
+      ],
+      "INC-SOURCE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": [ "D-T"],
+        "freeLines": ["T-Ti target, diameter of deuteron beam was 4 mm."]
+       }
+      ],
+      "SAMPLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "Natural, high purity elements in cylinders of 4 mm in",
+         "diameter and 12 mm high. They were placed around",
+         "neutron producing target at a distance of 20 mm."
+        ]
+       }
+      ],
+      "METHOD": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["ACTIV"]
+       }
+      ],
+      "DETECTOR": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "GELI"],
+        "freeLines": [" 30 cm3 Ge(Li) detector."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": [ "CSICR"],
+        "freeLines": [
+         "Neutron flux was controlled during irradiation by",
+         "counting the protons recoiled by the incident neutrons",
+         "from a polyethylene foil into a CsI(Tl) crystal."
+        ]
+       }
+      ],
+      "MONITOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["26-FE-56(N,P)25-MN-56,,SIG"]
+       }
+      ],
+      "MONIT-REF": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["20377002,H.LISKIEN+,J,JNE/AB,19,73,196502"]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "APRVD"],
+        "freeLines": [" Approved with corrections, by M.Herman,81/06/15"]
+       }
+      ],
+      "ERR-ANALYS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-T"],
+        "freeLines": [
+         " Error comprises statistical and",
+         "                                systematical errors.",
+         " *Systematic errors contain the following uncertainties",
+         " 1)of Ge(Li) detector efficiencies,   up to about 3%",
+         " 2)of the cross-section of reference, up to  5%,",
+         " 3)caused by fluctuation of n-flux,   less than 1%",
+         " 4)of gamma attenuation in sample,    up to about 0.5%",
+         " 5)of nonuniformity of d-beam on tritium target,",
+         "                                 estimate not possible."
+        ]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "19810508C"],
+        "freeLines": [" KO."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "19810624A"],
+        "freeLines": ["KO.-Corrections after H.M.'s letter,81/06/15"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "20090503A"],
+        "freeLines": [
+         " SD:Updated to new date formats,lower case,",
+         "            made formal corrections."
+        ]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [],
+      "units": [],
+      "pointers": [],
+      "data": []
+     }
+    },
+    {"SUBENT": "30581004",
+     "compiled": "20090506",
+     "BIB": {
+      "REACTION": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["25-MN-55(N,A)23-V-52,,SIG"]
+       }
+      ],
+      "DECAY-DATA": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": [ "23-V-52,3.76MIN,DG,1433.6"],
+        "freeLines": [" From Table of isotopes,6th ed.,by Lederer+,(1967)."]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "TABLE"],
+        "freeLines": [
+         " Numerical values taken from INR-1821/I/PL/A",
+         "report, and they correspond to the curve of",
+         "                    Acta Phys.Pol.B11 (1980)853,Fig.2.",
+         "The values from INDC(SEC)-61,p.229(Table 2) were",
+         "preliminary.",
+         ".This entry replaces exfor 30312.004."
+        ]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "19810624A"],
+        "freeLines": [" Ko. -Numerical values corrected.-"]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [],
+      "units": [],
+      "pointers": [],
+      "data": []
+     },
+     "x4data": {
+      "headers": [ "EN", "EN-RSL", "DATA", "ERR-T"],
+      "units": [ "MEV", "MEV", "MB", "MB"],
+      "pointers": [ " ", " ", " ", " "],
+      "data": [
+       [13.0        ,0.1         ,21.9        ,2.1         ],
+       [13.3        ,0.1         ,21.8        ,1.4         ],
+       [13.9        ,0.2         ,24.1        ,1.5         ],
+       [14.5        ,0.2         ,27.7        ,1.6         ],
+       [15.1        ,0.2         ,29.2        ,1.9         ],
+       [15.5        ,0.2         ,24.9        ,1.8         ],
+       [15.9        ,0.2         ,23.7        ,2.2         ],
+       [16.6        ,0.1         ,23.9        ,2.6         ],
+       [17.4        ,0.2         ,21.3        ,2.6         ],
+       [17.8        ,0.1         ,18.1        ,2.4         ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

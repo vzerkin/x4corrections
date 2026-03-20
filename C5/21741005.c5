@@ -1,0 +1,88 @@
+#C5.2.3         20260318    005333    20260316
+#_______________File generated:             2026-03-18,00:53:33
+#_________________by program x4toc5:        2026-03-09, author:v.zerkin@gmail.com, IAEA-NRDC, 2010-2026
+#_______________Data source:
+#_________________EXFOR file:               2026-03-18
+#_________________EXFOR dictionaries:       2025-12-18 NRDC, V.McLane(NNDC), O.Schwerer(IAEA), N.Otsuka(IAEA)
+#_________________X4TOC4:MF/MT dictionary:  2021-04-26 D.Cullen(IAEA), A.Trkov(IAEA), V.Zerkin(IAEA), Empire-team
+#_________________X4SF:MF/MT/LR dictionary: 2022-04-22 V.Pronyaev(IAEA,IPPE)
+#_________________Archive of monitors CS:   2025-10-08 K.Zolotarev(IPPE), V.Zerkin(IAEA)
+#_________________Reference cross sections: 2020-10-02 IAEA-CRP:Neutron Data Standards, IRDFF:Int.Reactor Dosimetry & Fusion File
+#_________________Decay-data/ENSDF-LARA:    2024-10-16 NSDD, M.Verpelli(IAEA)
+#_________________Nuclear levels/RIPL:      2015-08-29 IAEA Reference Input Parameter Library
+#_______________Copyright: x4toc5 (c) 2010-2026, International Atomic Energy Agency (IAEA)
+#_______________License: 
+#_________________Creative Commons - Attribution 4.0 International (CC BY 4.0)
+#DATASET        21741005   810310
+#SUBENT         21741005   810310
+#ENTRY          21741      810310
+#TITLE          -CROSS SECTIONS FOR SOME (N,P) REACTIONS NEAR
+#+               THRESHOLD -.
+#AUTHORS        A.PAULSEN,H.LISKIEN
+#AUTHOR1        A.Paulsen+
+#YEAR           1966
+#X4REF1         C,66PARIS,217,6610
+#REFERENCE1     Conf: Nuclear Data For Reactors Conf., Paris 1966, p.217 (1966)
+#DATE           19810310
+#INSTITUTE      2ZZZGEL
+#METHOD         ACTIV
+#REACTION       30-ZN-64(N,P)29-CU-64,,SIG
+#C4Reaction     (N,P),SIG
+#ReactionType   CS
+#MF             3
+#MT             103
+#PROJ           1
+#TARG           30064            
+#TARGET         30064           [ ]             30-ZN-64        [ ] 
+#REAC1          N,P
+#PRODUCT        29-CU-64
+#C4ReaCode      (N,P),SIG
+#Quantity       Cross section
+#DataUnits0     B
+#DataUnits      ?
+#D4REAC         R0#
+#ReaCombi       a
+#C4FOUND        1 
+#C4BEGIN        [    1 30064   3 103   ]
+#DATA-HDR       DATA
+#VarFamily      [0 2        ]
+#xVariables     1
+#+              Y = Y(X1)
+#ReacRatio      false
+#vReacs         1
+#C5EXT1         132         (4F9.0)     dSys,dStat,dOther,dTot //Absolute fully correlated, uncerrelated, partially correlated and total uncertainties
+#C5EXT2         168         (9F9.0)     dSys,dStat,dOther,dTotal,dData,M0,dM0,M1,dM1 //Relative uncertainties and monitor data
+#+                                    //dSys,dStat,dOther,dTot,dData,M0,dM0,M1,dM1:: in per-cents; M0:old montor;  M1:new monitor
+#C5DATA         24
+#C.M.Flag       0000                                                                            
+#Headers                     EN      dEN     Data    dData                                    
+#Units                       EV       EV        B        B                                    
+#Proj Targ M MF MT PXC   Energy  dEnergy     Data   dData Cos/LO/ZP dCos/LO/AP LVL/HL dLVL/HL I78 Refer (YY)              EntrySubP  dSys     dStat   dOther    dTot     dSys%    dStat%  dOther%   dTot%   dData%     M0      dM0       M1      dM1    
+#---><---->o<-><-->ooo<-------><-------><-------><-------><-------><-------><-------><-------><-><-----------------------><---><->o<-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><------->
+    1 30064   3 103   9.9+5             4.-5     1.6-6                                           A.PAULSEN,           (66)21741  5 1.5809-6 4.-7              1.6-6     3.95     1                 4        4
+    1 30064   3 103   1.05+6            1.4-4    5.6-6                                           A.PAULSEN,           (66)21741  5 5.5331-6 1.4-6             5.6-6     3.95     1                 4        4
+    1 30064   3 103   1.11+6            1.1-4    4.4-6                                           A.PAULSEN,           (66)21741  5 4.3474-6 1.1-6             4.4-6     3.95     1                 4        4
+    1 30064   3 103   1.17+6            2.-4     8.-6                                            A.PAULSEN,           (66)21741  5 7.9044-6 2.-6              8.-6      3.95     1                 4        4
+    1 30064   3 103   1.23+6            2.8-4    1.12-5                                          A.PAULSEN,           (66)21741  5 1.10662-52.8-6             1.12-5    3.95     1                 4        4
+    1 30064   3 103   1.29+6            3.3-4    1.32-5                                          A.PAULSEN,           (66)21741  5 1.3042-5 3.3-6             1.32-5    3.95     1                 4        4
+    1 30064   3 103   1.36+6            4.9-4    1.96-5                                          A.PAULSEN,           (66)21741  5 1.9366-5 4.9-6             1.96-5    3.95     1                 4        4
+    1 30064   3 103   1.43+6            5.8-4    2.32-5                                          A.PAULSEN,           (66)21741  5 2.2923-5 5.8-6             2.32-5    3.95     1                 4        4
+    1 30064   3 103   1.49+6            1.02-3   4.08-5                                          A.PAULSEN,           (66)21741  5 4.0313-5 1.02-5            4.08-5    3.95     1                 4        4
+    1 30064   3 103   1.56+6            1.41-3   5.64-5                                          A.PAULSEN,           (66)21741  5 5.5726-5 1.41-5            5.64-5    3.95     1                 4        4
+    1 30064   3 103   1.63+6            1.8-3    7.2-5                                           A.PAULSEN,           (66)21741  5 7.114-5  1.8-5             7.2-5     3.95     1                 4        4
+    1 30064   3 103   1.69+6            2.31-3   9.24-5                                          A.PAULSEN,           (66)21741  5 9.1296-5 2.31-5            9.24-5    3.95     1                 4        4
+    1 30064   3 103   1.76+6            3.67-3   1.468-4                                         A.PAULSEN,           (66)21741  5 1.4505-4 3.67-5            1.468-4   3.95     1                 4        4
+    1 30064   3 103   1.82+6            4.1-3    1.64-4                                          A.PAULSEN,           (66)21741  5 1.6204-4 4.1-5             1.64-4    3.95     1                 4        4
+    1 30064   3 103   1.88+6            5.3-3    2.12-4                                          A.PAULSEN,           (66)21741  5 2.0947-4 5.3-5             2.12-4    3.95     1                 4        4
+    1 30064   3 103   1.94+6            6.8-3    2.72-4                                          A.PAULSEN,           (66)21741  5 2.6875-4 6.8-5             2.72-4    3.95     1                 4        4
+    1 30064   3 103   1.99+6            7.9-3    3.16-4                                          A.PAULSEN,           (66)21741  5 3.1222-4 7.9-5             3.16-4    3.95     1                 4        4
+    1 30064   3 103   2.04+6            9.4-3    3.76-4                                          A.PAULSEN,           (66)21741  5 3.7151-4 9.4-5             3.76-4    3.95     1                 4        4
+    1 30064   3 103   2.08+6            1.06-2   4.24-4                                          A.PAULSEN,           (66)21741  5 4.1893-4 1.06-4            4.24-4    3.95     1                 4        4
+    1 30064   3 103   2.12+6            1.3-2    5.2-4                                           A.PAULSEN,           (66)21741  5 5.1379-4 1.3-4             5.2-4     3.95     1                 4        4
+    1 30064   3 103   2.15+6            1.49-2   5.96-4                                          A.PAULSEN,           (66)21741  5 5.8888-4 1.49-4            5.96-4    3.95     1                 4        4
+    1 30064   3 103   2.18+6            1.57-2   6.28-4                                          A.PAULSEN,           (66)21741  5 6.205-4  1.57-4            6.28-4    3.95     1                 4        4
+    1 30064   3 103   2.2+6             1.6-2    6.4-4                                           A.PAULSEN,           (66)21741  5 6.3235-4 1.6-4             6.4-4     3.95     1                 4        4
+    1 30064   3 103   2.21+6            1.7-2    6.8-4                                           A.PAULSEN,           (66)21741  5 6.7188-4 1.7-4             6.8-4     3.95     1                 4        4
+#/C5DATA        0
+#/DATASET       21741005 
+#/C5.2.3        1               1               1               0               24              

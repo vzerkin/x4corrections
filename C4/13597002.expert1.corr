@@ -1,0 +1,19 @@
+13597002           #1994 S.K.Ghorai+ 
+ a0=0.386/0.348;    #correction to new  511 keV gamma-yield per decay Cu-64
+ a1=0.999936/1.0;  #correction to new 1368 keV gamma-yield per decay Na24 
+ a2=0.84351;       #renorm. factor to the preliminary evaluated integral of cs 
+                   #in the neutron energy interval 14.2-16.2 MeV. 
+ a3=a0*a1*a2;      #total energy independent correction factor  
+ c2=0.0115         #added error in 511 keV gamma-yield per decay Cu-64 - 1.15%  
+ c3=0.02           #added error in remorm. factor - 2% 
+ m0: [en, monit];    #old cs for Al27(n,a)Na24 monitor reaction
+ m2: [en, monit-err];#abs. error in old cs for Al27(n,a) monitor reaction
+ c0=m2/m0;           #rel. error in old cs for Al27(n,a) monitor reaction
+ m1: rrdf10 $ al27na;#new cs for Al27(n,a)Na24 monitor reaction
+ c1=dm1/m1;          #relative error in new cs for Al27(n,a) monitor reaction 
+ dy=dy/y;            #relative error in original cs for Zn64(n,p)Cu64 reaction 
+ fc=m1/m0*a3;        #total correction factor                   
+ y=y*fc;             #correction exp. cs
+ dy=dy^2-c0^2+c1^2+c2^2+c3^2; #determination the quadrature of new total error
+ dy=dy^0.5*y;        #determination the absolute value of new total error
+

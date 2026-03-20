@@ -1,0 +1,72 @@
+#C5.2.3         20260317    220759    20260316
+#_______________File generated:             2026-03-17,22:07:59
+#_________________by program x4toc5:        2026-03-09, author:v.zerkin@gmail.com, IAEA-NRDC, 2010-2026
+#_______________Data source:
+#_________________EXFOR file:               2026-03-17
+#_________________EXFOR dictionaries:       2025-12-18 NRDC, V.McLane(NNDC), O.Schwerer(IAEA), N.Otsuka(IAEA)
+#_________________X4TOC4:MF/MT dictionary:  2021-04-26 D.Cullen(IAEA), A.Trkov(IAEA), V.Zerkin(IAEA), Empire-team
+#_________________X4SF:MF/MT/LR dictionary: 2022-04-22 V.Pronyaev(IAEA,IPPE)
+#_________________Archive of monitors CS:   2025-10-08 K.Zolotarev(IPPE), V.Zerkin(IAEA)
+#_________________Reference cross sections: 2020-10-02 IAEA-CRP:Neutron Data Standards, IRDFF:Int.Reactor Dosimetry & Fusion File
+#_________________Decay-data/ENSDF-LARA:    2024-10-16 NSDD, M.Verpelli(IAEA)
+#_________________Nuclear levels/RIPL:      2015-08-29 IAEA Reference Input Parameter Library
+#_______________Copyright: x4toc5 (c) 2010-2026, International Atomic Energy Agency (IAEA)
+#_______________License: 
+#_________________Creative Commons - Attribution 4.0 International (CC BY 4.0)
+#DATASET        13597002   950217
+#SUBENT         13597002   950217
+#ENTRY          13597      20140415
+#TITLE          Partial neutron cross sections for 64Zn, 66Zn, 67Zn
+#+               and 68Zn between 14.2 and 18.2 MeV
+#AUTHORS        S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford
+#AUTHOR1        S.K.Ghorai+
+#YEAR           1995
+#X4REF1         J,ANE,22,11,199501
+#REFERENCE1     Jour: Annals of Nuclear Energy, Vol.22, p.11 (1995)
+#DATE           19950217
+#INSTITUTE      1USAAUB,1USAALS
+#METHOD         ACTIV,MOMIX
+#REACTION       30-ZN-64(N,P)29-CU-64,,SIG
+#C4Reaction     (N,P),SIG
+#ReactionType   CS
+#MF             3
+#MT             103
+#PROJ           1
+#TARG           30064            
+#TARGET         30064           [ ]             30-ZN-64        [ ] 
+#REAC1          N,P
+#PRODUCT        29-CU-64
+#C4ReaCode      (N,P),SIG
+#CompNotes      RECALCULATED COLUMN:MONIT-ERR,B  TO:PER-CENT:L=4
+#Quantity       Cross section
+#DataUnits0     B
+#DataUnits      ?
+#D4REAC         R0#
+#ReaCombi       a
+#C4FOUND        1 
+#C4BEGIN        [    1 30064   3 103 A ]
+#DATA-HDR       DATA
+#VarFamily      [0 2        ]
+#xVariables     1
+#+              Y = Y(X1)
+#ReacRatio      false
+#vReacs         1
+#C5EXT1         132         (4F9.0)     dSys,dStat,dOther,dTot //Absolute fully correlated, uncerrelated, partially correlated and total uncertainties
+#C5EXT2         168         (9F9.0)     dSys,dStat,dOther,dTotal,dData,M0,dM0,M1,dM1 //Relative uncertainties and monitor data
+#+                                    //dSys,dStat,dOther,dTot,dData,M0,dM0,M1,dM1:: in per-cents; M0:old montor;  M1:new monitor
+#X4MONITOR      13-AL-27(N,A)11-NA-24,,SIG
+#M0             exfor:[EN,MONIT,MONIT-ERR]
+#M1             Monitor:{recom$al27na}
+#C5DATA         4
+#C.M.Flag       0000                                                                            
+#Headers                     EN      dEN     Data    dData                                    
+#Units                       EV       EV        B        B                                    
+#Proj Targ M MF MT PXC   Energy  dEnergy     Data   dData Cos/LO/ZP dCos/LO/AP LVL/HL dLVL/HL I78 Refer (YY)              EntrySubP  dSys     dStat   dOther    dTot     dSys%    dStat%  dOther%   dTot%   dData%     M0      dM0       M1      dM1    
+#---><---->o<-><-->ooo<-------><-------><-------><-------><-------><-------><-------><-------><-><-----------------------><---><->o<-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><-------><------->
+    1 30064   3 103 A 1.42+7   2.+5     0.18     1.-2                                            S.K.Ghorai,          (95)13597  2 9.54-4                     1.-2      0.53                       5.56     5.56    0.122    6.5-4    1.1962-1 5.2783-4
+    1 30064   3 103 A 1.52+7   2.+5     0.152    9.-3                                            S.K.Ghorai,          (95)13597  2 2.7512-3                   9.-3      1.81                       5.92     5.92    0.108    1.96-3   0.10501115.3122-4
+    1 30064   3 103 A 1.62+7   2.+5     0.116    6.-3                                            S.K.Ghorai,          (95)13597  2 2.2504-3                   6.-3      1.94                       5.17     5.17    9.-2     1.75-3   8.9254-2 6.517-4
+    1 30064   3 103 A 1.72+7   2.+5     0.122    8.-3                                            S.K.Ghorai,          (95)13597  2 2.3912-3                   8.-3      1.96                       6.56     6.56    7.2-2    1.41-3   7.31812-26.14784-4
+#/C5DATA        0
+#/DATASET       13597002 
+#/C5.2.3        1               1               1               0               4               

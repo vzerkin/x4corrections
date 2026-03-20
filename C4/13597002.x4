@@ -1,0 +1,63 @@
+REQUEST        2353001   20260317     214105   20260316          3    0  0    0
+ENTRY            13597   20140415   20141203   20141111       140113597000    1
+SUBENT        13597001   20140415   20141203   20141111       140113597001    1
+BIB                 15         35                                 13597001    2
+INSTITUTE  (1USAAUB,1USAALS)                                      13597001    3
+REFERENCE  (J,ANE,22,11,199501) - final publ., full data set      13597001    4
+           (J,BAP,39,1250(R9.2),199404)  - short abstract         13597001    5
+AUTHOR     (S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford)         13597001    6
+TITLE      Partial neutron cross sections for 64Zn, 66Zn, 67Zn    13597001    7
+            and 68Zn between 14.2 and 18.2 MeV                    13597001    8
+FACILITY   (DYNAM,1USAAUB)                                        13597001    9
+INC-SOURCE (D-T) deuterons on titanium tritide. The titanium      13597001   10
+           thickness was 0.62 mg/cm2 with a tritium concentration 13597001   11
+           of 0.42 Ci/cm2. The neutron fluxes varied from         13597001   12
+           about 1.4 x 10**7 n/cm2/s at 14.2MeV to about          13597001   13
+           3.8 x 10**5 n/cm2/s at 18.2 MeV                        13597001   14
+SAMPLE     Natural zinc sample.                                   13597001   15
+METHOD     (ACTIV,MOMIX)                                          13597001   16
+DETECTOR   (GELI)                                                 13597001   17
+MONITOR    (13-AL-27(N,A)11-NA-24,,SIG)                           13597001   18
+DECAY-MON  (11-NA-24,15.02HR,DG,1369.,1.00)                       13597001   19
+CORRECTION Corrected for:                                         13597001   20
+           .self-absorption of gamma-rays in sample               13597001   21
+           .gamma-gamma coincidence summing effect                13597001   22
+ERR-ANALYS (DATA-ERR) Standard uncertainties include uncertainty  13597001   23
+            in:                                                   13597001   24
+            .detector counting efficiency                         13597001   25
+            .monitor reaction cross section                       13597001   26
+            .decay parameters, except gamma intensities           13597001   27
+            .self-absorption correction                           13597001   28
+            .coincidence summing effect                           13597001   29
+            .counting statistics                                  13597001   30
+STATUS     (APRVD) Approved by S.K. Ghorai, 6/23/1995             13597001   31
+           (TABLE) Data taken from ANE,22,11,1995 (the same data  13597001   32
+           are given in BAP,39,1250(R9.2) but without decay-data  13597001   33
+           and monitor reaction)                                  13597001   34
+HISTORY    (19950215C)                                            13597001   35
+           (20140415A) SD: REACTION code corrected in Subent 5.   13597001   36
+            Minor corrections.                                    13597001   37
+ENDBIB              35                                            13597001   38
+COMMON               1          3                                 13597001   39
+EN-RSL                                                            13597001   40
+MEV                                                               13597001   41
+ 0.2                                                              13597001   42
+ENDCOMMON            3                                            13597001   43
+ENDSUBENT           42                                            1359700199999
+SUBENT        13597002     950217              20050926       000013597002    1
+BIB                  2          2                                 13597002    2
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)                           13597002    3
+DECAY-DATA (29-CU-64,12.7HR,AR,511.,0.386)                        13597002    4
+ENDBIB               2                                            13597002    5
+NOCOMMON             0          0                                 13597002    6
+DATA                 5          4                                 13597002    7
+EN         DATA       DATA-ERR   MONIT      MONIT-ERR             13597002    8
+MEV        MB         MB         MB         MB                    13597002    9
+14.2       180.        10.       122.0        0.65                13597002   10
+15.2       152.         9.       108.0        1.96                13597002   11
+16.2       116.         6.        90.0        1.75                13597002   12
+17.2       122.         8.        72.0        1.41                13597002   13
+ENDDATA              6                                            13597002   14
+ENDSUBENT           13                                            1359700299999
+ENDENTRY             2                                            1359799999999
+ENDREQUEST           1                                            Z999999999999

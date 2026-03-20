@@ -1,0 +1,96 @@
+REQUEST        2355001   20260317     222215   20260316          3    0  0    0
+ENTRY            21741     810310              20050926       000021741000    1
+SUBENT        21741001     810310              20050926       000021741001    1
+BIB                 14         45                                 21741001    2
+INSTITUTE  (2ZZZGEL) C.B.N.M. GEEL.                               21741001    3
+REFERENCE  (C,66PARIS,217,6610) GRAPHS ONLY.                      21741001    4
+           (W,LISKIEN,8102) TABLES OF NORMALISED VALUES.          21741001    5
+AUTHOR     (A.PAULSEN,H.LISKIEN)                                  21741001    6
+TITLE      -CROSS SECTIONS FOR SOME (N,P) REACTIONS NEAR          21741001    7
+            THRESHOLD -.                                          21741001    8
+FACILITY   (VDG  ) 3 MEV VAN DER GRAAFF.                          21741001    9
+INC-SOURCE (P-T  ) PROTON BEAM ON TRITIUM TARGET. 12 MICRO-A      21741001   10
+            ON A TITANIUM TRITIDE TARGET, 2.3 MG/CM2 GIVING A     21741001   11
+            NEUTRON ENERGY SPREAD OF +-87.5 KEV AT ZERO DEGREES.  21741001   12
+SAMPLE     .METALLIC SAMPLES OF NICKEL AND ZINC AND PRESSED       21741001   13
+            PELLETS OF SULPHUR AND PHOSPHORUS MIXED WITH 1 PERCEN 21741001   14
+            GRAPHITE AND 20 PERCENT PARAFFIN RESPECTIVELY.        21741001   15
+            THE DIMENSIONS WERE 20 MM DIAMETER, 5 MM THICK.       21741001   16
+METHOD     (ACTIV) ACTIVATION MEASUREMENTS, SAMPLES WERE          21741001   17
+            SUSPENDED FROM A GRADUATED CIRCL OF 90.6 MM RADIUS    21741001   18
+            FOR SIMULATNEOUS IRRADIATIONS FROM 0.92 TO 2.2 MEV    21741001   19
+            NEUTRON ENERGY.                                       21741001   20
+DETECTOR   (GEMUC) FOR SI-31 ACTIVITY A SIMPLE GEIGER-MULLER      21741001   21
+            END WINDOW COUNTER WAS USED. FOR P-32 ANTI-COINCIDENC 21741001   22
+            WITH AN NAI(TL) CRYSTAL WAS USED.                     21741001   23
+           (NAICR) CO-58 AND CU-64 WERE MEASURED USING THE        21741001   24
+            ANIHILATION RADIATION DETECTED IN AN NAI(TL) CRYSTAL. 21741001   25
+           (GELI ) A LITHIUM DRIFTED GE(LI) DETECTOR WAS USED     21741001   26
+            TO OBSERVE THE GAMMA SPECTRA OF ZN AND NI SAMPLES.    21741001   27
+ANALYSIS   .ALL MEASUREMENTS ARE RELATIVE, AND ARE NORMALISED     21741001   28
+            TO VALUES AT 2.20 OR 2.22 MEV TAKEN FROM EUR-119E.    21741001   29
+STATUS     .TABLES IN PRIVATE COMMUNICATION.                      21741001   30
+HISTORY    (810220C)                                              21741001   31
+           (810310E)                                              21741001   32
+CORRECTION .CORRECTED FOR NEUTRON FLUX ATTENUATION IN THE         21741001   33
+            SAMPLES, ELASTIC IN-SCATTERING FROM SAMPLE TO SAMPLE. 21741001   34
+            THESE CORRECTIONS NEVER EXCEED 8 PERCENT.             21741001   35
+ERR-ANALYS (ERR-S) STATISTICAL ERROR 1 PERCENT.                   21741001   36
+           (ERR-1) MULTIPLE SCATTERING, SELF ABSORPTION AND       21741001   37
+            IRRADIATION GEOMETERY  2.1 PERCENT.                   21741001   38
+           (ERR-2) BACKGROUND VARIATION  1 PERCENT.               21741001   39
+           (ERR-3) DETECTOR EFFICIENCY AND HALF-LIVES  1.1 PERCEN 21741001   40
+           (ERR-4) NEUTRON ANGULAR DISTRIBUTION  3 PERCENT.       21741001   41
+            ONLY ERR-4 IS CONSIDERED TO GIVE A SIGNIFICANT        21741001   42
+            CORRELATION, THE 3 PERCENT UNCERTAINY FOR THE NEUTRON 21741001   43
+            ANGULAR DISTRIBUTION HOLDS FOR ALL POINTS WITH A      21741001   44
+            DIFFERENCE OF NEUTRON ENERGY OF LESS THAN 200 KEV,    21741001   45
+            AND BELOW A DIFFERENCE OF 200 KEV IT SHOULD DROP TO   21741001   46
+            ZERO LINEARILY AS DELTA(E)/200 TIMES 3 PERCENT.       21741001   47
+ENDBIB              45                                            21741001   48
+COMMON               6          3                                 21741001   49
+ERR-T      ERR-S      ERR-1      ERR-2      ERR-3      ERR-4      21741001   50
+PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   PER-CENT   21741001   51
+ 4.0000E+00 1.0000E+00 2.1000E+00 1.0000E+00 1.1000E+00 3.0000E+0021741001   52
+ENDCOMMON            3                                            21741001   53
+ENDSUBENT           52                                            2174100199999
+SUBENT        21741005     810310              20050926       000021741005    1
+BIB                  4          5                                 21741005    2
+REACTION   (30-ZN-64(N,P)29-CU-64,,SIG) CROSS SECTION.            21741005    3
+COMMENT    .NORMALISED TO 16.0 MB AT 2.20 MEV.                    21741005    4
+STATUS     .TABLE 1, COLUMN 4.                                    21741005    5
+HISTORY    (810220C)                                              21741005    6
+           (810310E)                                              21741005    7
+ENDBIB               5                                            21741005    8
+NOCOMMON             0          0                                 21741005    9
+DATA                 2         24                                 21741005   10
+EN         DATA                                                   21741005   11
+MEV        MB                                                     21741005   12
+ 9.9000E-01 4.0000E-02                                            21741005   13
+ 1.0500E+00 1.4000E-01                                            21741005   14
+ 1.1100E+00 1.1000E-01                                            21741005   15
+ 1.1700E+00 2.0000E-01                                            21741005   16
+ 1.2300E+00 2.8000E-01                                            21741005   17
+ 1.2900E+00 3.3000E-01                                            21741005   18
+ 1.3600E+00 4.9000E-01                                            21741005   19
+ 1.4300E+00 5.8000E-01                                            21741005   20
+ 1.4900E+00 1.0200E+00                                            21741005   21
+ 1.5600E+00 1.4100E+00                                            21741005   22
+ 1.6300E+00 1.8000E+00                                            21741005   23
+ 1.6900E+00 2.3100E+00                                            21741005   24
+ 1.7600E+00 3.6700E+00                                            21741005   25
+ 1.8200E+00 4.1000E+00                                            21741005   26
+ 1.8800E+00 5.3000E+00                                            21741005   27
+ 1.9400E+00 6.8000E+00                                            21741005   28
+ 1.9900E+00 7.9000E+00                                            21741005   29
+ 2.0400E+00 9.4000E+00                                            21741005   30
+ 2.0800E+00 1.0600E+01                                            21741005   31
+ 2.1200E+00 1.3000E+01                                            21741005   32
+ 2.1500E+00 1.4900E+01                                            21741005   33
+ 2.1800E+00 1.5700E+01                                            21741005   34
+ 2.2000E+00 1.6000E+01                                            21741005   35
+ 2.2100E+00 1.7000E+01                                            21741005   36
+ENDDATA             26                                            21741005   37
+ENDSUBENT           36                                            2174100599999
+ENDENTRY             2                                            2174199999999
+ENDREQUEST           1                                            Z999999999999

@@ -1,0 +1,83 @@
+ENTRY            30581   20090506   20090724   20090724       3137
+SUBENT        30581001   20090506   20090724   20090724       3137
+BIB                 14         47
+INSTITUTE  (3POLIBJ)
+           (3POLPWA) 1st author's address.
+REFERENCE  (J,APP/B,11,853,198011) Final
+           (R,INR-1821/I/PL/A,1980) Final numerical values.
+           (P,INR-1642/I/PL/A,10,1976) P,V,Mn,Co,As and (Nb-93).
+           (P,INR-1702/I/PL/A,19,1977) La only
+            ===Compiler's note 81/05/08 =
+            Both progress reports are issued as INDC(SEC)-61, and
+            EXFOR 30312(except .007) and 30485 have been replaced
+            by this entry. ===
+            ===Compiler's note (2nd issue) 81/06/24 =
+            M.Herman stated in his letter (81/06/15) that the
+            values in INDC(SEC)-61(contains INR-1642/I/PL/A and
+            INR-1702/I/PL/A) were preliminary, and he sent the
+            corrected values. Corrections have been done
+            accordingly. ===
+AUTHOR     (E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski)
+TITLE      Excitation functions for (n,a) reactions in the neutron
+           energy range from 13 to 18 MeV.
+FACILITY   (VDG,3POLIBJ)
+INC-SOURCE (D-T)
+           T-Ti target, diameter of deuteron beam was 4 mm.
+SAMPLE     Natural, high purity elements in cylinders of 4 mm in
+           diameter and 12 mm high. They were placed around
+           neutron producing target at a distance of 20 mm.
+METHOD     (ACTIV)
+DETECTOR   (GELI) 30 cm3 Ge(Li) detector.
+           (CSICR)
+           Neutron flux was controlled during irradiation by
+           counting the protons recoiled by the incident neutrons
+           from a polyethylene foil into a CsI(Tl) crystal.
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)
+MONIT-REF  (20377002,H.LISKIEN+,J,JNE/AB,19,73,196502)
+STATUS     (APRVD) Approved with corrections, by M.Herman,81/06/15
+ERR-ANALYS (ERR-T) Error comprises statistical and
+                                           systematical errors.
+            *Systematic errors contain the following uncertainties
+            1)of Ge(Li) detector efficiencies,   up to about 3%
+            2)of the cross-section of reference, up to  5%,
+            3)caused by fluctuation of n-flux,   less than 1%
+            4)of gamma attenuation in sample,    up to about 0.5%
+            5)of nonuniformity of d-beam on tritium target,
+                                            estimate not possible.
+HISTORY    (19810508C) KO.
+           (19810624A)KO.-Corrections after H.M.'s letter,81/06/15
+           (20090503A) SD:Updated to new date formats,lower case,
+                       made formal corrections.
+ENDBIB              47
+NOCOMMON             0          0
+ENDSUBENT           50
+SUBENT        30581004   20090506   20090724   20090724       3137
+BIB                  4         10
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+DECAY-DATA (23-V-52,3.76MIN,DG,1433.6)
+            From Table of isotopes,6th ed.,by Lederer+,(1967).
+STATUS     (TABLE) Numerical values taken from INR-1821/I/PL/A
+           report, and they correspond to the curve of
+                               Acta Phys.Pol.B11 (1980)853,Fig.2.
+           The values from INDC(SEC)-61,p.229(Table 2) were
+           preliminary.
+           .This entry replaces exfor 30312.004.
+HISTORY    (19810624A) Ko. -Numerical values corrected.-
+ENDBIB              10
+NOCOMMON             0          0
+DATA                 4         10
+EN         EN-RSL     DATA       ERR-T
+MEV        MEV        MB         MB
+ 1.3000E+01 1.0000E-01 2.1900E+01 2.1000E+00
+ 1.3300E+01 1.0000E-01 2.1800E+01 1.4000E+00
+ 1.3900E+01 2.0000E-01 2.4100E+01 1.5000E+00
+ 1.4500E+01 2.0000E-01 2.7700E+01 1.6000E+00
+ 1.5100E+01 2.0000E-01 2.9200E+01 1.9000E+00
+ 1.5500E+01 2.0000E-01 2.4900E+01 1.8000E+00
+ 1.5900E+01 2.0000E-01 2.3700E+01 2.2000E+00
+ 1.6600E+01 1.0000E-01 2.3900E+01 2.6000E+00
+ 1.7400E+01 2.0000E-01 2.1300E+01 2.6000E+00
+ 1.7800E+01 1.0000E-01 1.8100E+01 2.4000E+00
+ENDDATA             12
+ENDSUBENT           27
+ENDENTRY             2

@@ -1,0 +1,276 @@
+{"format": "x4json-zv1.0.0",
+ "now": "2026-03-19T12:20:13.299Z",
+ "title": "EXFOR file in JSON",
+ "program": "x4py, by V.Zerkin, Vienna, ver.2026-06-17",
+ "purpose": "To read/modify/save EXFOR and/or JSON structured according to EXFOR Manual",
+ "x4entries": [
+  {"ENTRY": "21741",
+   "updated": "19810310",
+   "srcFile": "21741005.x4",
+   "a1": "A.Paulsen",
+   "y1": "1966",
+   "ref": "C,66PARIS,217,6610",
+   "x4subents": [
+    {"SUBENT": "21741001",
+     "compiled": "19810310",
+     "BIB": {
+      "INSTITUTE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "2ZZZGEL"],
+        "freeLines": [" C.B.N.M. GEEL."]
+       }
+      ],
+      "REFERENCE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "C,66PARIS,217,6610"],
+        "freeLines": [" GRAPHS ONLY."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "W,LISKIEN,8102"],
+        "freeLines": [" TABLES OF NORMALISED VALUES."]
+       }
+      ],
+      "AUTHOR": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["A.PAULSEN,H.LISKIEN"]
+       }
+      ],
+      "TITLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "-CROSS SECTIONS FOR SOME (N,P) REACTIONS NEAR",
+         " THRESHOLD -."
+        ]
+       }
+      ],
+      "FACILITY": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "VDG  "],
+        "freeLines": [" 3 MEV VAN DER GRAAFF."]
+       }
+      ],
+      "INC-SOURCE": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "P-T  "],
+        "freeLines": [
+         " PROTON BEAM ON TRITIUM TARGET. 12 MICRO-A",
+         " ON A TITANIUM TRITIDE TARGET, 2.3 MG/CM2 GIVING A",
+         " NEUTRON ENERGY SPREAD OF +-87.5 KEV AT ZERO DEGREES."
+        ]
+       }
+      ],
+      "SAMPLE": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         ".METALLIC SAMPLES OF NICKEL AND ZINC AND PRESSED",
+         " PELLETS OF SULPHUR AND PHOSPHORUS MIXED WITH 1 PERCEN",
+         " GRAPHITE AND 20 PERCENT PARAFFIN RESPECTIVELY.",
+         " THE DIMENSIONS WERE 20 MM DIAMETER, 5 MM THICK."
+        ]
+       }
+      ],
+      "METHOD": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ACTIV"],
+        "freeLines": [
+         " ACTIVATION MEASUREMENTS, SAMPLES WERE",
+         " SUSPENDED FROM A GRADUATED CIRCL OF 90.6 MM RADIUS",
+         " FOR SIMULATNEOUS IRRADIATIONS FROM 0.92 TO 2.2 MEV",
+         " NEUTRON ENERGY."
+        ]
+       }
+      ],
+      "DETECTOR": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "GEMUC"],
+        "freeLines": [
+         " FOR SI-31 ACTIVITY A SIMPLE GEIGER-MULLER",
+         " END WINDOW COUNTER WAS USED. FOR P-32 ANTI-COINCIDENC",
+         " WITH AN NAI(TL) CRYSTAL WAS USED."
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "NAICR"],
+        "freeLines": [
+         " CO-58 AND CU-64 WERE MEASURED USING THE",
+         " ANIHILATION RADIATION DETECTED IN AN NAI(TL) CRYSTAL."
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "GELI "],
+        "freeLines": [
+         " A LITHIUM DRIFTED GE(LI) DETECTOR WAS USED",
+         " TO OBSERVE THE GAMMA SPECTRA OF ZN AND NI SAMPLES."
+        ]
+       }
+      ],
+      "ANALYSIS": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         ".ALL MEASUREMENTS ARE RELATIVE, AND ARE NORMALISED",
+         " TO VALUES AT 2.20 OR 2.22 MEV TAKEN FROM EUR-119E."
+        ]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [".TABLES IN PRIVATE COMMUNICATION."]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["810220C"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["810310E"]
+       }
+      ],
+      "CORRECTION": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         ".CORRECTED FOR NEUTRON FLUX ATTENUATION IN THE",
+         " SAMPLES, ELASTIC IN-SCATTERING FROM SAMPLE TO SAMPLE.",
+         " THESE CORRECTIONS NEVER EXCEED 8 PERCENT."
+        ]
+       }
+      ],
+      "ERR-ANALYS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-S"],
+        "freeLines": [" STATISTICAL ERROR 1 PERCENT."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-1"],
+        "freeLines": [
+         " MULTIPLE SCATTERING, SELF ABSORPTION AND",
+         " IRRADIATION GEOMETERY  2.1 PERCENT."
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-2"],
+        "freeLines": [" BACKGROUND VARIATION  1 PERCENT."]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-3"],
+        "freeLines": [" DETECTOR EFFICIENCY AND HALF-LIVES  1.1 PERCEN"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ERR-4"],
+        "freeLines": [
+         " NEUTRON ANGULAR DISTRIBUTION  3 PERCENT.",
+         " ONLY ERR-4 IS CONSIDERED TO GIVE A SIGNIFICANT",
+         " CORRELATION, THE 3 PERCENT UNCERTAINY FOR THE NEUTRON",
+         " ANGULAR DISTRIBUTION HOLDS FOR ALL POINTS WITH A",
+         " DIFFERENCE OF NEUTRON ENERGY OF LESS THAN 200 KEV,",
+         " AND BELOW A DIFFERENCE OF 200 KEV IT SHOULD DROP TO",
+         " ZERO LINEARILY AS DELTA(E)/200 TIMES 3 PERCENT."
+        ]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [ "ERR-T", "ERR-S", "ERR-1", "ERR-2", "ERR-3", "ERR-4"],
+      "units": [ "PER-CENT", "PER-CENT", "PER-CENT", "PER-CENT", "PER-CENT", "PER-CENT"],
+      "pointers": [ " ", " ", " ", " ", " ", " "],
+      "data": [
+       [4.0         ,1.0         ,2.1         ,1.0         ,1.1         ,3.0         ]
+      ]
+     }
+    },
+    {"SUBENT": "21741005",
+     "compiled": "19810310",
+     "BIB": {
+      "REACTION": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "30-ZN-64(N,P)29-CU-64,,SIG"],
+        "freeLines": [" CROSS SECTION."]
+       }
+      ],
+      "COMMENT": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [".NORMALISED TO 16.0 MB AT 2.20 MEV."]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [".TABLE 1, COLUMN 4."]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["810220C"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["810310E"]
+       }
+      ]
+     },
+     "x4common": {
+      "headers": [],
+      "units": [],
+      "pointers": [],
+      "data": []
+     },
+     "x4data": {
+      "headers": [ "EN", "DATA"],
+      "units": [ "MEV", "MB"],
+      "pointers": [ " ", " "],
+      "data": [
+       [0.99        ,0.04        ],
+       [1.05        ,0.14        ],
+       [1.11        ,0.11        ],
+       [1.17        ,0.2         ],
+       [1.23        ,0.28        ],
+       [1.29        ,0.33        ],
+       [1.36        ,0.49        ],
+       [1.43        ,0.58        ],
+       [1.49        ,1.02        ],
+       [1.56        ,1.41        ],
+       [1.63        ,1.8         ],
+       [1.69        ,2.31        ],
+       [1.76        ,3.67        ],
+       [1.82        ,4.1         ],
+       [1.88        ,5.3         ],
+       [1.94        ,6.8         ],
+       [1.99        ,7.9         ],
+       [2.04        ,9.4         ],
+       [2.08        ,10.6        ],
+       [2.12        ,13.0        ],
+       [2.15        ,14.9        ],
+       [2.18        ,15.7        ],
+       [2.2         ,16.0        ],
+       [2.21        ,17.0        ]
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

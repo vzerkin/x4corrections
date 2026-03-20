@@ -1,0 +1,11 @@
+21741005        #1966 A.Paulsen+ 
+ a1=4.24934e-3;  #integral of cs between 1.159-2.210 MeV for orinal data 
+ a2=3.56295e-3;  #integral of cs between 1.159-2.210 MeV for Smith+75 data
+ a3=a2/a1;       #correction factor applied to all original exp. data
+                 # for renorm. to Smith+75 data   
+ c3=0.05;        #assigned uncertaity in a3-value - 5%
+ dy=dy/y;        #to rel  uncertainty
+ y=y*a3;         #corrected cs
+ dy=dy^2 + c3^2; #quad-sum of corrected relative uncertainty
+ dy=dy^0.5*y;    #new absolute uncertainty
+

@@ -1,0 +1,85 @@
+REQUEST        2356001   20260317     222859   20260316          3    0  0    0
+ENTRY            30581   20090506   20090724   20090724       313730581000    1
+SUBENT        30581001   20090506   20090724   20090724       313730581001    1
+BIB                 14         47                                 30581001    2
+INSTITUTE  (3POLIBJ)                                              30581001    3
+           (3POLPWA) 1st author's address.                        30581001    4
+REFERENCE  (J,APP/B,11,853,198011) Final                          30581001    5
+           (R,INR-1821/I/PL/A,1980) Final numerical values.       30581001    6
+           (P,INR-1642/I/PL/A,10,1976) P,V,Mn,Co,As and (Nb-93).  30581001    7
+           (P,INR-1702/I/PL/A,19,1977) La only                    30581001    8
+            ===Compiler's note 81/05/08 =                         30581001    9
+            Both progress reports are issued as INDC(SEC)-61, and 30581001   10
+            EXFOR 30312(except .007) and 30485 have been replaced 30581001   11
+            by this entry. ===                                    30581001   12
+            ===Compiler's note (2nd issue) 81/06/24 =             30581001   13
+            M.Herman stated in his letter (81/06/15) that the     30581001   14
+            values in INDC(SEC)-61(contains INR-1642/I/PL/A and   30581001   15
+            INR-1702/I/PL/A) were preliminary, and he sent the    30581001   16
+            corrected values. Corrections have been done          30581001   17
+            accordingly. ===                                      30581001   18
+AUTHOR     (E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski)         30581001   19
+TITLE      Excitation functions for (n,a) reactions in the neutron30581001   20
+           energy range from 13 to 18 MeV.                        30581001   21
+FACILITY   (VDG,3POLIBJ)                                          30581001   22
+INC-SOURCE (D-T)                                                  30581001   23
+           T-Ti target, diameter of deuteron beam was 4 mm.       30581001   24
+SAMPLE     Natural, high purity elements in cylinders of 4 mm in  30581001   25
+           diameter and 12 mm high. They were placed around       30581001   26
+           neutron producing target at a distance of 20 mm.       30581001   27
+METHOD     (ACTIV)                                                30581001   28
+DETECTOR   (GELI) 30 cm3 Ge(Li) detector.                         30581001   29
+           (CSICR)                                                30581001   30
+           Neutron flux was controlled during irradiation by      30581001   31
+           counting the protons recoiled by the incident neutrons 30581001   32
+           from a polyethylene foil into a CsI(Tl) crystal.       30581001   33
+MONITOR    (26-FE-56(N,P)25-MN-56,,SIG)                           30581001   34
+MONIT-REF  (20377002,H.LISKIEN+,J,JNE/AB,19,73,196502)            30581001   35
+STATUS     (APRVD) Approved with corrections, by M.Herman,81/06/1530581001   36
+ERR-ANALYS (ERR-T) Error comprises statistical and                30581001   37
+                                           systematical errors.   30581001   38
+            *Systematic errors contain the following uncertainties30581001   39
+            1)of Ge(Li) detector efficiencies,   up to about 3%   30581001   40
+            2)of the cross-section of reference, up to  5%,       30581001   41
+            3)caused by fluctuation of n-flux,   less than 1%     30581001   42
+            4)of gamma attenuation in sample,    up to about 0.5% 30581001   43
+            5)of nonuniformity of d-beam on tritium target,       30581001   44
+                                            estimate not possible.30581001   45
+HISTORY    (19810508C) KO.                                        30581001   46
+           (19810624A)KO.-Corrections after H.M.'s letter,81/06/1530581001   47
+           (20090503A) SD:Updated to new date formats,lower case, 30581001   48
+                       made formal corrections.                   30581001   49
+ENDBIB              47                                            30581001   50
+NOCOMMON             0          0                                 30581001   51
+ENDSUBENT           50                                            3058100199999
+SUBENT        30581004   20090506   20090724   20090724       313730581004    1
+BIB                  4         10                                 30581004    2
+REACTION   (25-MN-55(N,A)23-V-52,,SIG)                            30581004    3
+DECAY-DATA (23-V-52,3.76MIN,DG,1433.6)                            30581004    4
+            From Table of isotopes,6th ed.,by Lederer+,(1967).    30581004    5
+STATUS     (TABLE) Numerical values taken from INR-1821/I/PL/A    30581004    6
+           report, and they correspond to the curve of            30581004    7
+                               Acta Phys.Pol.B11 (1980)853,Fig.2. 30581004    8
+           The values from INDC(SEC)-61,p.229(Table 2) were       30581004    9
+           preliminary.                                           30581004   10
+           .This entry replaces exfor 30312.004.                  30581004   11
+HISTORY    (19810624A) Ko. -Numerical values corrected.-          30581004   12
+ENDBIB              10                                            30581004   13
+NOCOMMON             0          0                                 30581004   14
+DATA                 4         10                                 30581004   15
+EN         EN-RSL     DATA       ERR-T                            30581004   16
+MEV        MEV        MB         MB                               30581004   17
+ 1.3000E+01 1.0000E-01 2.1900E+01 2.1000E+00                      30581004   18
+ 1.3300E+01 1.0000E-01 2.1800E+01 1.4000E+00                      30581004   19
+ 1.3900E+01 2.0000E-01 2.4100E+01 1.5000E+00                      30581004   20
+ 1.4500E+01 2.0000E-01 2.7700E+01 1.6000E+00                      30581004   21
+ 1.5100E+01 2.0000E-01 2.9200E+01 1.9000E+00                      30581004   22
+ 1.5500E+01 2.0000E-01 2.4900E+01 1.8000E+00                      30581004   23
+ 1.5900E+01 2.0000E-01 2.3700E+01 2.2000E+00                      30581004   24
+ 1.6600E+01 1.0000E-01 2.3900E+01 2.6000E+00                      30581004   25
+ 1.7400E+01 2.0000E-01 2.1300E+01 2.6000E+00                      30581004   26
+ 1.7800E+01 1.0000E-01 1.8100E+01 2.4000E+00                      30581004   27
+ENDDATA             12                                            30581004   28
+ENDSUBENT           27                                            3058100499999
+ENDENTRY             2                                            3058199999999
+ENDREQUEST           1                                            Z999999999999

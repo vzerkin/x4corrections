@@ -1,0 +1,331 @@
+{"format":"x5json.0.1.9" 
+ ,"now":"2026-03-18T18:36:27.072Z" 
+ ,"program":"exfor2x5z, by V.Zerkin, IAEA-NRDC, 2019-2026, ver.2026-01-18"
+ ,"input": {"files":[ {"exfor-file":"X4R2365_x4.txt", "format":"EXFOR", "created":"2026-03-18T18:36:23.000Z" }
+		     ,{"exfor-dictionaries":"x4dict/", "format":"DICT_ARC_NEW", "modified":"2025-12-18T00:00:00.000Z" }
+		     ,{"archive-monitors":"monitors/", "format":"zvv-out", "modified":"2025-10-08T00:00:00.000Z" }
+		     ,{"decay-data":"monitors/decay/lara2/", "format":"LARA", "modified":"2024-10-16T00:00:00.000Z" } ] }
+ ,"output":{"files":[ {"x5.json":"X4R2365_x4.txt.x5z", "created":"2026-03-18T18:36:27.072Z" } ] }
+ ,"x4dbVersion":"2026-03-17"
+ ,"x4entries": [
+  {"ENTRY":"30581", "updated":20090506, "x4dbVersion":"2026-03-17", "TransID":"3137", "TransDate":20090724, "CenterID":"NDS", "Center":"IAEA Nuclear Data Section, Vienna, Austria"
+   ,"y1":1980,"a1":"E.Zupranska+","r1":"J,APP/B,11,853,1980"
+   ,"ref":"Jour: Acta Physica Polonica, Part B, Vol.11, p.853 (1980)"
+   ,"title":"Excitation functions for (n,a) reactions in the neutron energy range from 13 to 18 MeV."
+   ,"x4subents":[
+   {"SUBENT":"30581001", "isub":1, "compiled":20090506, "TransID":"3137", "TransDate":20090724, "x4dbVersion":"2026-03-17"
+    ,"BIB":{
+      "INSTITUTE":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"3POLIBJ", "dict":"INSTITUTE", "idict":3,"hlp":"Instytut Badan Jadrowych, Swierk and Warszawa, Poland"}]
+	}
+	,{"x4pointer":" "
+	 ,"x4codes":[{"code":"3POLPWA", "dict":"INSTITUTE", "idict":3,"hlp":"Politechnika Warszawska, Poland"}]
+	,"x4freetext":[" 1st author`s address."]
+	}
+      ]
+     ,"REFERENCE":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"J,APP/B,11,853,198011","stdFileName":"J,APP_B,11,853,1980"
+		,"year":1980,"typ":"J","ref":"J,APP/B","vol":"11","p":"853"
+		,"shortRef":"Jour: Acta Physica Polonica, Part B, Vol.11, p.853 (1980)"}]
+	,"x4freetext":[" Final"]
+	}
+	,{"x4pointer":" "
+	 ,"x4codes":[{"code":"R,INR-1821/I/PL/A,1980","stdFileName":"R,INR-1821_I_PL_A,1980"
+		,"year":1980,"typ":"R","ref":"R,INR-","no":"1821/I/PL/A"
+		,"shortRef":"Rept: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1821/I/PL/A (1980)"}]
+	,"x4freetext":[" Final numerical values."]
+	}
+	,{"x4pointer":" "
+	 ,"x4codes":[{"code":"P,INR-1642/I/PL/A,10,1976","stdFileName":"R,INR-1642_I_PL_A,10,1976"
+		,"year":1976,"typ":"P","ref":"R,INR-","no":"1642/I/PL/A","p":"10"
+		,"shortRef":"Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1642/I/PL/A, p.10 (1976)"}]
+	,"x4freetext":[" P,V,Mn,Co,As and (Nb-93)."]
+	}
+	,{"x4pointer":" "
+	 ,"x4codes":[{"code":"P,INR-1702/I/PL/A,19,1977","stdFileName":"R,INR-1702_I_PL_A,19,1977"
+		,"year":1977,"typ":"P","ref":"R,INR-","no":"1702/I/PL/A","p":"19"
+		,"shortRef":"Prog: Inst.Badan Jadr.(Nucl.Res.),Swierk+Warsaw,Repts, No.1702/I/PL/A, p.19 (1977)"}]
+	,"x4freetext":[" La only"
+		," ===Compiler`s note 81/05/08 ="
+		," Both progress reports are issued as INDC(SEC)-61, and"
+		," EXFOR 30312(except .007) and 30485 have been replaced"
+		," by this entry. ==="
+		," ===Compiler`s note (2nd issue) 81/06/24 ="
+		," M.Herman stated in his letter (81/06/15) that the"
+		," values in INDC(SEC)-61(contains INR-1642/I/PL/A and"
+		," INR-1702/I/PL/A) were preliminary, and he sent the"
+		," corrected values. Corrections have been done"
+		," accordingly. ==="]
+	}
+      ]
+     ,"AUTHOR":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"name":"E.Zupranska","ini":"E.","nam":"Zupranska"}
+	    ,{"name":"K.Rusek","ini":"K.","nam":"Rusek"}
+	    ,{"name":"J.Turkiewicz","ini":"J.","nam":"Turkiewicz","alias":["Turkevich"]}
+	    ,{"name":"P.Zupranski","ini":"P.","nam":"Zupranski"}]
+	}
+      ]
+     ,"TITLE":[
+	{"x4pointer":" "
+	 ,"x4code":null
+	,"x4freetext":["Excitation functions for (n,a) reactions in the neutron"
+		,"energy range from 13 to 18 MeV."]
+	}
+      ]
+     ,"FACILITY":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"VDG", "dict":"FACILITY", "idict":18,"hlp":"Van de Graaff"}
+	    ,{"code":"3POLIBJ", "dict":"INSTITUTE", "idict":3,"hlp":"Instytut Badan Jadrowych, Swierk and Warszawa, Poland"}]
+	}
+      ]
+     ,"INC-SOURCE":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"D-T", "dict":"INC-SOURCE", "idict":19,"hlp":"3H(d,n)"}]
+	,"x4freetext":["T-Ti target, diameter of deuteron beam was 4 mm."]
+	}
+      ]
+     ,"SAMPLE":[
+	{"x4pointer":" "
+	 ,"x4code":null
+	,"x4freetext":["Natural, high purity elements in cylinders of 4 mm in"
+		,"diameter and 12 mm high. They were placed around"
+		,"neutron producing target at a distance of 20 mm."]
+	}
+      ]
+     ,"METHOD":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"ACTIV", "dict":"METHOD", "idict":21,"hlp":"Activation"}]
+	}
+      ]
+     ,"DETECTOR":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"GELI", "dict":"DETECTOR", "idict":22,"hlp":"Germanium-Lithium detector"}]
+	,"x4freetext":[" 30 cm3 Ge(Li) detector."]
+	}
+	,{"x4pointer":" "
+	 ,"x4codes":[{"code":"CSICR", "dict":"DETECTOR", "idict":22,"hlp":"Cesium-Iodide crystal"}]
+	,"x4freetext":["Neutron flux was controlled during irradiation by"
+		,"counting the protons recoiled by the incident neutrons"
+		,"from a polyethylene foil into a CsI(Tl) crystal."]
+	}
+      ]
+     ,"MONITOR":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"26-FE-56(N,P)25-MN-56,,SIG"
+		,"reaction":"26-FE-56(N,P)25-MN-56,,SIG"}
+	}
+      ]
+     ,"MONIT-REF":[
+	{"x4pointer":" "
+	 ,"x4codes":[{"code":"20377002,H.LISKIEN+,J,JNE/AB,19,73,196502"
+		,"subent":"20377002","author1":"H.LISKIEN+","stdFileName":"J,JNE_AB,19,73,1965"
+		,"year":1965,"typ":"J","ref":"J,JNE/AB","vol":"19","p":"73"
+		,"shortRef":"Jour: J.Nuclear Energy A&B (Reactor Sci. and Technol.), Vol.19, p.73 (1965)"}]
+	}
+      ]
+     ,"STATUS":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"APRVD"
+		,"flag":"APRVD", "hlp":"Approved by author"
+		}
+	,"x4freetext":[" Approved with corrections, by M.Herman,81/06/15"]
+	}
+      ]
+     ,"ERR-ANALYS":[
+	{"x4pointer":" "
+	 ,"x4code":{"header":"ERR-T"
+	     ,"headerHelp":"Total uncertainty (1-Sigma)"}
+	,"x4freetext":[" Error comprises statistical and"
+		,"                                systematical errors."
+		," *Systematic errors contain the following uncertainties"
+		," 1)of Ge(Li) detector efficiencies,   up to about 3%"
+		," 2)of the cross-section of reference, up to  5%,"
+		," 3)caused by fluctuation of n-flux,   less than 1%"
+		," 4)of gamma attenuation in sample,    up to about 0.5%"
+		," 5)of nonuniformity of d-beam on tritium target,"
+		,"                                 estimate not possible."]
+	}
+      ]
+     ,"HISTORY":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"19810508C", "date":"19810508", "act":"C", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Compiled at the data center"}
+	,"x4freetext":[" KO."]
+	}
+	,{"x4pointer":" "
+	 ,"x4code":{"code":"19810624A", "date":"19810624", "act":"A", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Important alterations"}
+	,"x4freetext":["KO.-Corrections after H.M.`s letter,81/06/15"]
+	}
+	,{"x4pointer":" "
+	 ,"x4code":{"code":"20090503A", "date":"20090503", "act":"A", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Important alterations"}
+	,"x4freetext":[" SD:Updated to new date formats,lower case,"
+		,"            made formal corrections."]
+	}
+      ]
+    }
+   }
+  ,{"SUBENT":"30581004", "isub":4, "compiled":20090506, "TransID":"3137", "TransDate":20090724, "x4dbVersion":"2026-03-17"
+    ,"BIB":{
+      "REACTION":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"25-MN-55(N,A)23-V-52,,SIG"
+	    ,"c4reac":"(N,A),SIG"
+	    ,"combi":"a"
+	    ,"MF":3
+	    ,"MT":107
+	    ,"Units":"B"
+	    ,"reacs": [
+	    {"code":"25-MN-55(N,A)23-V-52,,SIG"
+		,"Reac":"N,A"
+		,"SF1":"25-MN-55","Targ":{"code":"25-MN-55","nam":"Mn-55","ZA":25055}
+		,"SF2":"N","Proj":{"code":"N","nam":"n","ZA":1}
+		,"SF3":"A"
+		,"SF4":"23-V-52","Prod":{"code":"23-V-52","nam":"V-52","ZA":23052}
+		,"SF6":"SIG"
+		,"SF58":",SIG","Quant":"CS","BasicUnits":"B","QuantHlp":"Cross section"
+	    }]}
+	}
+      ]
+     ,"DECAY-DATA":[
+	{"x4pointer":" "
+	 ,"x4code":{"Nucl":"23-V-52", "t12":3.76, "t12units":"MIN", "t12sec":225.6
+	  ,"Radiations":[{"Type":"DG", "Energy":[1433.6]}]}
+	,"x4freetext":[" From Table of isotopes,6th ed.,by Lederer+,(1967)."]
+	}
+      ]
+     ,"STATUS":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"TABLE"
+		,"flag":"TABLE", "hlp":"Data presented by authors"
+		}
+	,"x4freetext":[" Numerical values taken from INR-1821/I/PL/A"
+		,"report, and they correspond to the curve of"
+		,"                    Acta Phys.Pol.B11 (1980)853,Fig.2."
+		,"The values from INDC(SEC)-61,p.229(Table 2) were"
+		,"preliminary."
+		,".This entry replaces exfor 30312.004."]
+	}
+      ]
+     ,"HISTORY":[
+	{"x4pointer":" "
+	 ,"x4code":{"code":"19810624A", "date":"19810624", "act":"A", "dict":"HISTORY", "idict":15
+	     ,"actHelp":"Important alterations"}
+	,"x4freetext":[" Ko. -Numerical values corrected.-"]
+	}
+      ]
+    }
+    ,"DATA":{"ncols":4, "nrows":10
+      ,"x4headers":[
+       {"icol":0, "header":"EN", "units":"MEV", "pointer":" "
+	,"headerHelp":"Energy of incident projectile, laboratory system", "pFlag":"1000000"
+	,"unitsHelp":"MeV","familyCode":"E","convFc":1000000.0,"basicUnits":"EV"}
+      ,{"icol":1, "header":"EN-RSL", "units":"MEV", "pointer":" "
+	,"headerHelp":"Incident projectile energy resolution (Unspecified)", "pFlag":"9220000"
+	,"unitsHelp":"MeV","familyCode":"E","convFc":1000000.0,"basicUnits":"EV"}
+      ,{"icol":2, "header":"DATA", "units":"MB", "pointer":" "
+	,"headerHelp":"Value of quantity specified under REACTION", "pFlag":"0001000"
+	,"unitsHelp":"millibarns","familyCode":"B","convFc":0.001,"basicUnits":"B"}
+      ,{"icol":3, "header":"ERR-T", "units":"MB", "pointer":" "
+	,"headerHelp":"Total uncertainty (1-Sigma)", "pFlag":"0009110"
+	,"unitsHelp":"millibarns","familyCode":"B","convFc":0.001,"basicUnits":"B"}
+      ]
+      ,"datacols":[
+	 ["EN"        ,"EN-RSL"    ,"DATA"      ,"ERR-T"     ]
+	,["MEV"       ,"MEV"       ,"MB"        ,"MB"        ]
+	,[" "         ," "         ," "         ," "         ]]
+      ,"data":[
+	 [13          ,0.1         ,21.9        ,2.1         ]
+	,[13.3        ,0.1         ,21.8        ,1.4         ]
+	,[13.9        ,0.2         ,24.1        ,1.5         ]
+	,[14.5        ,0.2         ,27.7        ,1.6         ]
+	,[15.1        ,0.2         ,29.2        ,1.9         ]
+	,[15.5        ,0.2         ,24.9        ,1.8         ]
+	,[15.9        ,0.2         ,23.7        ,2.2         ]
+	,[16.6        ,0.1         ,23.9        ,2.6         ]
+	,[17.4        ,0.2         ,21.3        ,2.6         ]
+	,[17.8        ,0.1         ,18.1        ,2.4         ]]}
+  ,"datasets":[
+{"iDataset":0, "DatasetID":"30581004", "Pointer":" "
+ ,"Subent":"30581004", "compiled":20090506, "x4status":"A", "x4dbVersion":"2026-03-17"
+ ,"year1":1980, "author1ini":"E.", "author1":"Zupranska"
+ ,"zTarg1":25 ,"aTarg1":55, "targ1":"Mn-55", "proj1":"n", "emis1":"A", "prod1":"V-52", "MF":3, "MT":107
+ ,"nExpectedArgs":1 ,"IndepVarFamilyCode":"0 2", "yFormula":"y=DATA(EN)"
+ ,"ReactionType":"CS", "quant":"CS", "quantExpan":"Cross section"
+ ,"reacode":"25-MN-55(N,A)23-V-52,,SIG"
+ ,"compNotes":[]
+ ,"autoCorrNotes":[" #[0]#---Monitor xs-data"
+	," #[0]#Reaction: 25-MN-55(N,A)23-V-52,,SIG"
+	," #[0]#Monitor:  26-FE-56(N,P)25-MN-56,,SIG"
+	," #m0: {20377002,H.LISKIEN+,J,JNE/AB,19,73,196502} $ fe56np;#[0]#old monit-ref"
+	," m0: exfor$20377002_fe56np;      #[0]#old monitor(energy) in EXFOR"
+	," m1: recom$fe56np;               #[0]#new monitor(energy)"
+	," dy=dy/y;                        #[0]#to rel. uncertainties."
+	," y=y/m0*m1;                      #[0]#renormalizing CS"
+	," #dm0=dm0/m0;                    #[0]#---dm0-to-relative"
+	," #dm1=dm1/m1;                    #[0]#---dm1-to-relative"
+	," #dy=(dy**2-dm0**2+dm1**2)**0.5; #[0]#---replace monitor uncertainties"
+	," #c0=0.02;                       #---define calc-error as 2%"
+	," #dy=(dy**2+c0**2)**0.5;         #---add calc-error"
+	," dy=dy*y;                        #[0]#to abs. uncertainties"]
+ ,"wx4data":4
+ ,"lx4data":10
+ ,"x4data":[
+   {"ivar":0, "cvar":"y", "fam":"Data", "ifComm":false, "ifCM":false
+    ,"header":"DATA", "units":"MB", "basicUnits":"B"
+    ,"what":"Y.Value", "dataType":"21", "rank":0.1
+    ,"expansion":"Data: data"
+    ,"dat0":[21.9,21.8,24.1,27.7,29.2,24.9,23.7,23.9,21.3,18.1]
+    ,"dat1":[0.0219,0.0218,0.0241,0.0277,0.0292,0.0249,0.0237,0.0239,0.0213,0.0181]}
+  ,{"ivar":1, "cvar":"dy", "fam":"Data", "ifComm":false, "ifCM":false
+    ,"header":"ERR-T", "units":"MB", "basicUnits":"B"
+    ,"what":"Y.Err+-", "dataType":"21", "rank":0.911
+    ,"expansion":"Data: data /Error/"
+    ,"dat0":[2.1,1.4,1.5,1.6,1.9,1.8,2.2,2.6,2.6,2.4]
+    ,"dat1":[0.0021,0.0014,0.0015,0.0016,0.0019,0.0018,0.0022,0.0026,0.0026,0.0024]}
+  ,{"ivar":2, "cvar":"x1", "fam":"EN", "ifComm":false, "ifCM":false
+    ,"header":"EN", "units":"MEV", "basicUnits":"EV"
+    ,"what":"X1.Value", "dataType":"41", "rank":1.1
+    ,"expansion":"Incident energy: energy"
+    ,"dat0":[13,13.3,13.9,14.5,15.1,15.5,15.9,16.6,17.4,17.8]
+    ,"dat1":[1.3e+7,1.33e+7,1.39e+7,1.45e+7,1.51e+7,1.55e+7,1.59e+7,1.66e+7,1.74e+7,1.78e+7]}
+  ,{"ivar":3, "cvar":"dx1", "fam":"EN", "ifComm":false, "ifCM":false
+    ,"header":"EN-RSL", "units":"MEV", "basicUnits":"EV"
+    ,"what":"X1.Resl+-", "dataType":"41", "rank":1.922
+    ,"expansion":"Incident energy: energy /Error/"
+    ,"dat0":[0.1,0.1,0.2,0.2,0.2,0.2,0.2,0.1,0.2,0.1]
+    ,"dat1":[1.0e+5,1.0e+5,2.0e+5,2.0e+5,2.0e+5,2.0e+5,2.0e+5,1.0e+5,2.0e+5,1.0e+5]}
+  ]
+ ,"wc5data":2
+ ,"lc5data":10
+ ,"c5data":{
+    "y":{"icvar":0, "cvar":"y", "fam":"Data", "ifCM":false, "units":"B"
+      ,"header":"DATA", "dataType":"21", "rank":0.0
+      ,"expansion":"Data: data"
+      ,"y":[0.0219,0.0218,0.0241,0.0277,0.0292,0.0249,0.0237,0.0239,0.0213,0.0181]
+      ,"dy":[0.0021,0.0014,0.0015,0.0016,0.0019,0.0018,0.0022,0.0026,0.0026,0.0024]   }
+   ,"x1":{"icvar":1, "cvar":"x1", "fam":"EN", "ifCM":false, "units":"EV"
+      ,"header":"EN", "dataType":"41", "rank":1.0
+      ,"expansion":"Incident energy: energy"
+      ,"x1":[1.3e+7,1.33e+7,1.39e+7,1.45e+7,1.51e+7,1.55e+7,1.59e+7,1.66e+7,1.74e+7,1.78e+7]
+      ,"dx1":[1.0e+5,1.0e+5,2.0e+5,2.0e+5,2.0e+5,2.0e+5,2.0e+5,1.0e+5,2.0e+5,1.0e+5]   }
+ }
+ ,"c5mon":{"m0ref":"exfor/20377002_fe56np", "m1ref":"recom/fe56np"
+      ,"enNorm":[1.3e+7,1.33e+7,1.39e+7,1.45e+7,1.51e+7,1.55e+7,1.59e+7,1.66e+7,1.74e+7,1.78e+7]
+      ,"m0":[0.112833,0.112909,0.106857,0.0990947,0.0902632,0.0876595,0.0813719,0.0723261,0.0634344,0.0592387]
+      ,"m1":[0.114678,0.115791,0.114767,0.109563,0.101495,0.0953876,0.0891617,0.0785706,0.067915,0.0633253]
+      ,"dm0":[0.007,0.007,0.007,0.00602105,0.00566842,0.00541351,0.00494375,0.00406087,0.00397812,0.00359677]
+      ,"dm1":[0.00169076,0.00152722,0.00125861,0.00118709,0.00126404,0.00127928,0.00128455,0.00127983,0.00126339,0.00125742]
+      ,"Fc0":[1.01635,1.02552,1.07402,1.10564,1.12444,1.08816,1.09573,1.08634,1.07063,1.06899] }
+}
+   ]
+   }
+  ]
+ }
+]
+
+}

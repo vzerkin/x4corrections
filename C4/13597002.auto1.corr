@@ -1,0 +1,20 @@
+13597002  x4u:19950217  #1995,Ghorai #Pts:4  #now:2026-03-09 
+ #[0]#---Monitor xs-data
+ #[0]#Reaction: 30-ZN-64(N,P)29-CU-64,,SIG
+ #[0]#Monitor:  13-AL-27(N,A)11-NA-24,,SIG
+ m0: [EN,MONIT,MONIT-ERR];       #[0]#old monitor(energy)
+ m1: recom$al27na;               #[0]#new monitor(energy)
+ dy=dy/y;                        #to rel. uncertainties
+ y=y/m0*m1;                      #[0]#renormalizing CS
+ #dm0=dm0/m0;                    #[0]#---dm0-to-relative
+ #dm1=dm1/m1;                    #[0]#---dm1-to-relative
+ #dy=(dy**2-dm0**2+dm1**2)**0.5; #[0]#---replace monitor uncertainties
+  #[1]#---Reaction decay-data
+  #[1]#REACTION   (30-ZN-64(N,P)29-CU-64,,SIG)
+  #[1]#DECAY-DATA (29-CU-64,12.7HR,AR,511.,0.386) #Ix_old=0.386
+   a1=0.386/0.352;               #[1]#DECAY-DATA: correction to new 511 keV gamma-yield per decay Cu-64 Ix_new=0.352
+   y=y*a1;                       #[1]#Renorm.factor: a1=1.0965909
+ #c0=0.02;                       #---define calc-error as 2%
+ #dy=(dy**2+c0**2)**0.5;         #---add calc-error
+ dy=dy*y;                        #to abs. uncertainties
+
