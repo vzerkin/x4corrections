@@ -1,5 +1,5 @@
 {"format": "x4json-zv1.0.0",
- "now": "2026-03-19T12:20:13.613Z",
+ "now": "2026-03-19T12:20:13.632Z",
  "title": "EXFOR file in JSON",
  "program": "x4py, by V.Zerkin, Vienna, ver.2026-06-17",
  "purpose": "To read/modify/save EXFOR and/or JSON structured according to EXFOR Manual",
@@ -35,7 +35,7 @@
       "AUTHOR": [
        {"pointer": " ",
         "joinFreeLines": false,
-        "codeLines": ["S.K.Ghorai,P.M.Sylva,J.R.Williams,W.L.Alford"]
+        "codeLines": ["S.K.Ghorai*,P.M.Sylva,J.R.Williams,W.L.Alford"]
        }
       ],
       "TITLE": [
@@ -158,23 +158,89 @@
       "units": [ "MEV"],
       "pointers": [ " "],
       "data": [
-       [0.2         ]
+       [0.2        ]
       ]
      }
     },
     {"SUBENT": "13597002",
-     "compiled": "19950217",
+     "compiled": "20260319",
      "BIB": {
       "REACTION": [
        {"pointer": " ",
         "joinFreeLines": false,
-        "codeLines": ["30-ZN-64(N,P)29-CU-64,,SIG"]
+        "codeLines": [ "30-ZN-64(N,P)29-CU-64,,SIG,,,SG54"],
+        "freeLines": ["data recalculated by WPEC-SG54 group"]
        }
       ],
       "DECAY-DATA": [
        {"pointer": " ",
         "joinFreeLines": false,
         "codeLines": ["29-CU-64,12.7HR,AR,511.,0.386"]
+       }
+      ],
+      "HISTORY": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "20260319A"],
+        "freeLines": [" ZV - example of DATA correction Auto-2026"]
+       }
+      ],
+      "STATUS": [
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "DEP,13597002,19950217"],
+        "freeLines": [
+         " modified by V.Zerkin 20260319",
+         " original data taken from 13597002 as of 19950217"
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": [ "MODIF,13597002,IAEA-Web,20260319"],
+        "freeLines": [" modified according to IAEA-Web system as test-example"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "codeLines": ["APPROVED,13597002,R.Capote,20260226"]
+       }
+      ],
+      "RECALC": [
+       {"pointer": " ",
+        "joinFreeLines": false,
+        "freeLines": [
+         "---Description of modifications done in columns",
+         "---of the DATA and/or COMMON sections"
+        ]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,DATA"],
+        "freeLines": ["      Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,DATA-ERR"],
+        "freeLines": ["  Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,MONIT"],
+        "freeLines": ["     Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "MOD-COL,DATA,MONIT-ERR"],
+        "freeLines": [" Modified column"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ADD-COL,DATA,FC,DATA"],
+        "freeLines": [" Added factor for DATA:=DATA*FC"]
+       },
+       {"pointer": " ",
+        "joinFreeLines": true,
+        "codeLines": [ "ADD-COL,DATA,FC-ERR,DATA-ERR"],
+        "freeLines": [" Factor for DATA-ERR"]
        }
       ]
      },
@@ -185,14 +251,14 @@
       "data": []
      },
      "x4data": {
-      "headers": [ "EN", "DATA", "DATA-ERR", "MONIT", "MONIT-ERR"],
-      "units": [ "MEV", "MB", "MB", "MB", "MB"],
-      "pointers": [ " ", " ", " ", " ", " "],
+      "headers": [ "EN", "DATA", "DATA-ERR", "MONIT", "MONIT-ERR", "FC", "FC-ERR"],
+      "units": [ "MEV", "MB", "MB", "MB", "MB", "NO-DIM", "NO-DIM"],
+      "pointers": [ " ", " ", " ", " ", " ", " ", " "],
       "data": [
-       [14.2        ,180.0       ,10.0        ,122.0       ,0.65        ],
-       [15.2        ,152.0       ,9.0         ,108.0       ,1.96        ],
-       [16.2        ,116.0       ,6.0         ,90.0        ,1.75        ],
-       [17.2        ,122.0       ,8.0         ,72.0        ,1.41        ]
+       [14.2       ,193.53571  ,10.736444  ,119.62     ,0.5278325  ,1.0751984  ,1.0736444  ],
+       [15.2       ,162.06892  ,9.1710408  ,105.01111  ,0.53121778 ,1.0662429  ,1.0190045  ],
+       [16.2       ,126.15016  ,6.1161546  ,89.254     ,0.6517     ,1.0875014  ,1.0193591  ],
+       [17.2       ,135.97889  ,8.5860595  ,73.1812    ,0.614784   ,1.1145811  ,1.0732574  ]
       ]
      }
     }
