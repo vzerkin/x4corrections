@@ -49,13 +49,13 @@ BIB                  5         17
 REACTION   (30-ZN-64(N,P)29-CU-64,,SIG,,,SG54)
            data recalculated by WPEC-SG54 group
 DECAY-DATA (29-CU-64,12.7HR,AR,511.,0.386)
-HISTORY    (20260319A) ZV - example of DATA correction Auto-2026
+HISTORY    (20260319A) ZK - example of DATA correction ZK-2011
 STATUS     (DEP,13597002,19950217) modified by V.Zerkin 20260319
             original data taken from 13597002 as of 19950217
-           (MODIF,13597002,IAEA-Web,20260319)
-            modified according to IAEA-Web system as test-example
-           (APPROVED,13597002,R.Capote,20260226)
-RECALC     ---Description of modifications done in columns
+           (MODIF,13597002,K.Zolotarev,W,ZOLOTAREV,20110516)
+            EXFOR data modified according to the corrections
+            applied by K.Zolotarev for the IAEA project IRDFF-II
+RECALC     ---Description of data modifications done in columns
            ---of the DATA and/or COMMON sections
            (MOD-COL,DATA,DATA)      Modified column
            (MOD-COL,DATA,DATA-ERR)  Modified column
@@ -70,14 +70,14 @@ EN         DATA       DATA-ERR   MONIT      MONIT-ERR  FC
 FC-ERR
 MEV        MB         MB         MB         MB         NO-DIM
 NO-DIM
-14.2       193.53571  10.736444  119.62     0.5278325  1.0751984
-1.0736444
-15.2       162.06892  9.1710408  105.01111  0.53121778 1.0662429
-1.0190045
-16.2       126.15016  6.1161546  89.254     0.6517     1.0875014
-1.0193591
-17.2       135.97889  8.5860595  73.1812    0.614784   1.1145811
-1.0732574
+14.2       165.22422  9.9232637  119.699    0.491282   0.91791231
+0.99232637
+15.2       138.37443  8.4673736  105.091    0.627464   0.91035812
+0.94081929
+16.2       107.62549  5.7811655  89.2543    0.666805   0.92780592
+0.96352758
+17.2       115.95741  7.79756    73.1477    0.625967   0.95047058
+0.974695
 ENDDATA             12
 ENDSUBENT           34
 ENDENTRY             2
