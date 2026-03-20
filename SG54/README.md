@@ -25,7 +25,7 @@ Since this can be confusing and even dangerous, this solution should be consider
 | Corr-type: Monitor reaction data: CS(EN)              | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes   |
 | Corr-type: Decay data (DECAY-DATA) for reaction       | :white_check_mark: Yes | :x: No                 | :x: No                   |
 | Corr-type: Decay data (DECAY-MON) for monitor         | :white_check_mark: Yes | :x: No                 | :x: No                   |
-| Corr-type: Integral of CS in energy interval          | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes   |
+| Corr-type: Integral of CS in energy interval          | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                   |
 | Recalculated: data values                             | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes   |
 | Recalculated: absolute total uncertainties            | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes   |
 | Recalculated: relative total uncertainties            | :white_check_mark: Yes | :white_check_mark: Yes | :x: No                   |
