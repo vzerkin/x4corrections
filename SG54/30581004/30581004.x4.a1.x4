@@ -1,3 +1,4 @@
+#SG54            M0001   20260319 # by V.Zerkin, 2026
 ENTRY            30581   20090506   20090724   20090724       3137
 SUBENT        30581001   20090506   20090724   20090724       3137
 BIB                 14         47
@@ -17,7 +18,7 @@ REFERENCE  (J,APP/B,11,853,198011) Final
             INR-1702/I/PL/A) were preliminary, and he sent the
             corrected values. Corrections have been done
             accordingly. ===
-AUTHOR     (E.Zupranska,K.Rusek,J.Turkiewicz,P.Zupranski)
+AUTHOR     (E.Zupranska*,K.Rusek,J.Turkiewicz,P.Zupranski)
 TITLE      Excitation functions for (n,a) reactions in the neutron
            energy range from 13 to 18 MeV.
 FACILITY   (VDG,3POLIBJ)
@@ -51,9 +52,10 @@ HISTORY    (19810508C) KO.
 ENDBIB              47
 NOCOMMON             0          0
 ENDSUBENT           50
-SUBENT        30581004   20090506   20090724   20090724       3137
-BIB                  4         10
-REACTION   (25-MN-55(N,A)23-V-52,,SIG)
+SUBENT        30581004   20260319   20090724   20090724       3137
+BIB                  6         28
+REACTION   (25-MN-55(N,A)23-V-52,,SIG,,,SG54)
+           data recalculated by WPEC-SG54 group
 DECAY-DATA (23-V-52,3.76MIN,DG,1433.6)
             From Table of isotopes,6th ed.,by Lederer+,(1967).
 STATUS     (TABLE) Numerical values taken from INR-1821/I/PL/A
@@ -62,22 +64,39 @@ STATUS     (TABLE) Numerical values taken from INR-1821/I/PL/A
            The values from INDC(SEC)-61,p.229(Table 2) were
            preliminary.
            .This entry replaces exfor 30312.004.
+           (DEP,30581004,20090506) modified by V.Zerkin 20260319
+            original data taken from 30581004 as of 20090506
+           (MODIF,30581004,IAEA-Web,20260319)
+            modified by the IAEA-Web system as test-example
+           (APPROVED,30581004,R.Capote,20260315)
 HISTORY    (19810624A) Ko. -Numerical values corrected.-
-ENDBIB              10
+           (20260319A) ZV - example of DATA correction Auto-2026
+MONIT-REF  (,K.I.Zolotarev,3,IRDFF-II,2631,2004) new monitor data
+            used for renormalization by WPEC-SG54 group.
+            Original monitor data taken from the EXFOR Entry 20377
+            via link: (20377002,H.LISKIEN+,J,JNE/AB,19,73,196502)
+RECALC     ---Description of data modifications done in columns
+           ---of the DATA and/or COMMON sections
+           (MOD-COL,DATA,DATA)    Modified column
+           (MOD-COL,DATA,ERR-T)   Modified column
+           (ADD-COL,DATA,MONIT)   Added column: new MONIT
+           (ADD-COL,DATA,FC,DATA) Added: factor for DATA:=DATA*FC
+            ERR-T also recalculated using FC: [ERR-T]:=[ERR-T]*FC
+ENDBIB              28
 NOCOMMON             0          0
-DATA                 4         10
-EN         EN-RSL     DATA       ERR-T
-MEV        MEV        MB         MB
- 1.3000E+01 1.0000E-01 2.1900E+01 2.1000E+00
- 1.3300E+01 1.0000E-01 2.1800E+01 1.4000E+00
- 1.3900E+01 2.0000E-01 2.4100E+01 1.5000E+00
- 1.4500E+01 2.0000E-01 2.7700E+01 1.6000E+00
- 1.5100E+01 2.0000E-01 2.9200E+01 1.9000E+00
- 1.5500E+01 2.0000E-01 2.4900E+01 1.8000E+00
- 1.5900E+01 2.0000E-01 2.3700E+01 2.2000E+00
- 1.6600E+01 1.0000E-01 2.3900E+01 2.6000E+00
- 1.7400E+01 2.0000E-01 2.1300E+01 2.6000E+00
- 1.7800E+01 1.0000E-01 1.8100E+01 2.4000E+00
+DATA                 6         10
+EN         EN-RSL     DATA       ERR-T      MONIT      FC
+MEV        MEV        MB         MB         MB         NO-DIM
+13.        0.1        22.258034  2.1343321  114.678    1.0163486
+13.3       0.1        22.35633   1.4357276  115.7905   1.0255197
+13.9       0.2        25.883948  1.6110341  114.767    1.0740227
+14.5       0.2        30.626199  1.7690223  109.563    1.1056389
+15.1       0.2        32.833565  2.1364306  101.49525  1.1244372
+15.5       0.2        27.09521   1.9586899  95.387609  1.088161
+15.9       0.2        25.968845  2.4106101  89.161755  1.0957318
+16.6       0.1        25.963486  2.8244796  78.5706    1.0863383
+17.4       0.2        22.804505  2.7836485  67.915     1.070634
+17.8       0.1        19.348631  2.5655643  63.3253    1.0689851
 ENDDATA             12
-ENDSUBENT           27
+ENDSUBENT           45
 ENDENTRY             2
