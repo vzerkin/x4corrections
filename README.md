@@ -40,10 +40,10 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
 |:--------------------------------------------|:-----------------------|:-----------------------|:-----------------------|:-----------------------|
 | :a: Automatic-corrections                   | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
 | :floppy_disk: Expert/User-corrections       | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
-| :mag_right: Interactive (via Web-forms)     | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
-| :mag_right: Checking-mode (for every point) | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
-| :mag_right: Plotting data                   | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
-| :mag_right: Plotting monitors               | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
+| ++ Interactive (via Web-forms)              | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
+| ++ Checking-mode (for every point)          | :white_check_mark: Yes | :x: No                 | :x: No                 | :white_check_mark: Yes |
+| ++ Plotting data                            | :white_check_mark: Yes | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
+| ++ Plotting monitors                        | :white_check_mark: Yes | :x: No                 | :x: No                 | :x: No                 |
 | :one:   Includes monitor data to the file   | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
 | :two:   Correction-algorithm in the file    | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes | :white_check_mark: Yes |
 | :three: Exampes of correcting code          | :x: No                 | :x: No                 | :white_check_mark: Yes | :white_check_mark: Yes |
