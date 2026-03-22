@@ -1,5 +1,5 @@
 ## Correcting EXFOR data in C4, C5, X5, X4Pro
-_by V.Zerkin, 2011-2026_
+_by V.Zerkin, 2009-2026_
 
 ### Introduction
 A lot of experimental data presented in EXFOR were measured as ratio to a monitor, but presented in absolute values.
@@ -59,10 +59,10 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
 | **X5-JSON**            | [`x5`](X5/13597002.x5)    | [`x5`](X5/21741005.x5)  | [`x5`](X5/30581004.x5) |
 | Automatic-corrections  | [`auto1.corr`](C4/13597002.auto1.corr)           | :no_entry:             | [`auto1.corr`](C4/30581004.auto1.corr) |
 | Expert's-corrections   | [`expert1.corr`](C4/13597002.expert1.corr)       | [`expert1.corr`](C4/21741005.expert1.corr) | :no_entry:         |
-| C4-Calculation details | [`auto1.datamod`](C4/13597002.auto1.datamod)     | :no_entry:             | [`auto1.datamod`](C4/30581004.auto1.datamod) |
+| C4-calculation details | [`auto1.datamod`](C4/13597002.auto1.datamod)     | :no_entry:             | [`auto1.datamod`](C4/30581004.auto1.datamod) |
 | C4-data corrected      | [`auto1.c4`](C4/13597002.auto1.c4)               | :no_entry:             | [`auto1.c4`](C4/30581004.auto1.c4)   |
-| C4-Calculation details | [`expert1.datamod`](C4/13597002.expert1.datamod) | [`expert1.datamod`](C4/21741005.expert1.datamod) | :no_entry: |
-| C4-corrected           | [`expert1.c4`](C4/13597002.expert1.c4)           | [`expert1.c4`](C4/21741005.expert1.c4) | :no_entry:           |
+| C4-calculation details | [`expert1.datamod`](C4/13597002.expert1.datamod) | [`expert1.datamod`](C4/21741005.expert1.datamod) | :no_entry: |
+| C4-data-corrected      | [`expert1.c4`](C4/13597002.expert1.c4)           | [`expert1.c4`](C4/21741005.expert1.c4) | :no_entry:           |
 | C5-data corrected      | [`auto1.c5`](C5/13597002.auto1.c5)               | :no_entry:     | [`auto1.c5`](C5/30581004.auto.c5)            |
 | X4Pro-retrieved        | [`x4pro.json`](X4Pro/expert1-orig.json)          | :no_entry:     | [`x4pro.json`](X4Pro/auto1-orig.json)        |
 | X4Pro-corrected        | [`expert1.x4pro`](X4Pro/expert1-corr.json) : [`png`](X4Pro/expert1.png) | :no_entry: | [`auto1.x4pro`](X4Pro/auto1-corr.json) : [`png`](X4Pro/auto1.png) |
@@ -74,6 +74,8 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
 * [NRDC](https://nds.iaea.org/nrdc/) International Network of Nuclear Reaction Data Centres 
 * [IAEA-NDS](https://nds.iaea.org/) International Atomic Energy Agency, Nuclear Data Service 
 * [EXFOR](https://nds.iaea.org/exfor/) IAEA-NDS Web-Retrieval System 
+* [x4corrections](https://nds.iaea.org/exfor/x4guide/x4corrections/x4corrections.pdf) 
+  Corrections of experimental data given in computational formats, V.Zerkin, IAEA-NDS, 2011
 * [X4Pro-mini](https://github.com/vzerkin/x4pro) - X4Pro on GitHub (with mini-database)
 * [X4Pro](https://nds.iaea.org/cdroms/#x4pro1) - download previous version of X4Pro from IAEA-NDS site
 * X4Pro [reference paper](https://doi.org/10.1051/epjconf/202328414015),
