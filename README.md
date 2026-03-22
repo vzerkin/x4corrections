@@ -76,13 +76,13 @@ The IAEA-NDS EXFOR data correction system (V.Zerkin, 2011-2023) is presented in 
 * [EXFOR](https://nds.iaea.org/exfor/) IAEA-NDS Web-Retrieval System 
 * [x4corrections](https://nds.iaea.org/exfor/x4guide/x4corrections/x4corrections.pdf) 
   Corrections of experimental data given in computational formats, V.Zerkin, IAEA-NDS, 2011
-* [X4Pro-mini](https://github.com/vzerkin/x4pro) - X4Pro on GitHub (with mini-database)
-* [X4Pro](https://nds.iaea.org/cdroms/#x4pro1) - download previous version of X4Pro from IAEA-NDS site
-* X4Pro [reference paper](https://doi.org/10.1051/epjconf/202328414015),
-  Nuclear-Data Conference ND2022: [presentation](https://indico.frib.msu.edu/event/52/contributions/875/attachments/487/2289/nd2022-zerkin1.pdf)
 * Automatic renormalization in X4Pro [presentation](https://nds.iaea.org/nrdc/wksp_2022/present/zerkin5.pdf) on EXFOR-Workshop-2022
 * :red_circle: Youtube [Video](https://www.youtube.com/watch?v=n9P1Z134WYM)-2013:
   Automatic re-normalization of EXFOR data under Web retrieval system
 * Program [X4TOC4](https://nds.iaea.org/nrdc/nrdc_doc/iaea-nds-0080-200103.pdf), D.E.Cullen, A.Trkov, 2001
 * Program [x4toc5](https://doi.org/10.61092/iaea.gxra-p855), V.Zerkin, 2024
+* [X4Pro-mini](https://github.com/vzerkin/x4pro) - X4Pro on GitHub (with mini-database)
+* [X4Pro](https://nds.iaea.org/cdroms/#x4pro1) - download previous version of X4Pro from IAEA-NDS site
+* X4Pro [reference paper](https://doi.org/10.1051/epjconf/202328414015),
+  Nuclear-Data Conference ND2022: [presentation](https://indico.frib.msu.edu/event/52/contributions/875/attachments/487/2289/nd2022-zerkin1.pdf)
 * General-purpose EXFOR-driver, V.Zerkin, [presentation](https://nds.iaea.org/nrdc/nrdc_2025/present/zerkin1.pdf) on NRDC-2025 Meeting
